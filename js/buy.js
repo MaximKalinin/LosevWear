@@ -16,34 +16,19 @@ setParams = (query) => {
     setActiveNav();
 }
 
-getTShirts = () => {
-    return [{
-        name: 'Футболка корги',
-        id: '01001',
-        src: 'images/tshirts/corgi/0.jpg',
-    }, {
-        name: 'Футболка корги',
-        id: '01002',
-        src: 'images/tshirts/corgi2/1.jpg',
-    }, {
-        name: 'Футболка Мопс',
-        id: '01003',
-        src: 'images/tshirts/mops/1.jpg',
-    }, {
-        name: 'Футболка Счастье',
-        id: '01004',
-        src: 'images/tshirts/schastie/1.jpg',
-    },];
+setCart = () => {
+    $(".item-count").text(state.params.items);
+    $(".total-price").text(state.params.price);
 }
 
 getTShirts = () => {
     return [{
-        name: 'Футболка корги',
+        name: 'Футболка Корги',
         id: '01001',
         src: 'images/tshirts/corgi/0.jpg',
         price: 1490,
     }, {
-        name: 'Футболка корги',
+        name: 'Футболка Корги',
         id: '01002',
         src: 'images/tshirts/corgi2/1.jpg',
         price: 1490,
@@ -56,7 +41,45 @@ getTShirts = () => {
         name: 'Футболка Счастье',
         id: '01004',
         src: 'images/tshirts/schastie/1.jpg',
-        price: 990,
+        price: 1490,
+    },];
+}
+
+getHoodies = () => {
+    return [{
+        name: 'Худи Корги',
+        id: '02001',
+        src: 'images/hoodies/corgi/0.jpg',
+        price: 1490,
+    }, {
+        name: 'Худи Лосев',
+        id: '02002',
+        src: 'images/hoodies/losev/1.jpg',
+        price: 1490,
+    }, {
+        name: 'Худи Мопс',
+        id: '02003',
+        src: 'images/hoodies/mops/0.jpg',
+        price: 1490,
+    },];
+}
+
+getSweatshirts = () => {
+    return [{
+        name: 'Свитшот Мопс',
+        id: '03003',
+        src: 'images/sweatshirts/mops/1.jpg',
+        price: 1490,
+    }, {
+        name: 'Свитшот',
+        id: '03001',
+        src: 'images/sweatshirts/corgi/1.jpg',
+        price: 1490,
+    }, {
+        name: 'Свитшот Корги',
+        id: '03002',
+        src: 'images/sweatshirts/sweatshirt/1.jpg',
+        price: 1490,
     },];
 }
 
@@ -65,7 +88,22 @@ createContent = () => {
 
     setParams(window.location.search);
 
-    state.items = getTShirts();
+    setCart();
+
+    switch(state.params.type) {
+        case 't-shirts':
+            state.items = getTShirts();
+            break;
+        case 'sweatshirts':
+            state.items = getSweatshirts();
+            break;
+        case 'hoodies':
+            state.items = getHoodies();
+            break;
+        default:
+            break;
+    }
+    
     arrangeItems();
 }
 

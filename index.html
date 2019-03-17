@@ -17,9 +17,9 @@
     <div class="container-fluid menu">
         <div class="row">
             <div class="col-sm menu-items">
-                <a href="buy.html?type=t-shirts" class="menu-item t-shirts">ФУТБОЛКИ</a>
-                <a href="buy.html?type=hoodies" class="menu-item hoodies">ХУДИ</a>
-                <a href="buy.html?type=sweatshirts" class="menu-item sweatshirts">СВИТШОТЫ</a>
+                <a href="buy.html" class="menu-item t-shirts">ФУТБОЛКИ</a>
+                <a href="buy.html" class="menu-item hoodies">ХУДИ</a>
+                <a href="buy.html" class="menu-item sweatshirts">СВИТШОТЫ</a>
             </div>
             <div class="col-sm logo">
                     <a href="index.html"><img class="" src="images/logoTOP.jpg" alt="logo"></a>
@@ -49,21 +49,21 @@
 
     <div class="container big-menu">
         <div class="row">
-            <a href="buy.html?type=sweatshirts" class="col-sm menu-element">
+            <a href="buy.html" class="col-sm menu-element sweatshirts">
                 <img src="images/sweatshirt.jpg" alt="sweatshirt">
                 <div class="description">
                     <div class="name">Свитшоты</div>
                     <div class="price">от 2,490 р.</div>
                 </div>
             </a>
-            <a href="buy.html?type=hoodies"  class="col-sm menu-element">
+            <a href="buy.html"  class="col-sm menu-element hoodies">
                 <img src="images/hoodie.jpg" alt="hoodies">
                 <div class="description">
                     <div class="name">Худи</div>
                     <div class="price">от 2,990 р.</div>
                 </div>
             </a>
-            <a href="buy.html?type=t-shirts"  class="col-sm menu-element">
+            <a href="buy.html"  class="col-sm menu-element t-shirts">
                 <img src="images/t-shirt.jpg" alt="t-shirts">
                 <div class="description">
                     <div class="name">Футболки</div>
@@ -113,10 +113,39 @@
         <div><img src="images/lookbook/16.jpg" alt="lookbook image"></div>
     </div>
 
+    <div class="footer container">
+        <div class="row">
+            <div class="col-sm">
+                <h3>Купить</h3>
+                <a class="hoodies" href="buy.html">Худи</a>
+                <a class="sweatshirts" href="buy.html">Свитшоты</a>
+                <a class="t-shirts" href="buy.html">Футболки</a>
+            </div>
+            <div class="col-sm">
+                <h3>Информация</h3>
+                <div>О компании</div>
+                <div>Работа</div>
+                <div>Пресса</div>
+            </div>
+            <div class="col-sm">
+                <h3>Помощь</h3>
+                <div>Поддержка</div>
+                <div>Контакты</div>
+                <div>Найти магазин</div>
+            </div>
+            <div class="col-sm">
+                <h3>Оплата</h3>
+                <div>Оплата при получении</div>
+                <div>Реквизиты</div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
     <script>
         $(document).ready(() => {
             $(".lookbook").owlCarousel({
