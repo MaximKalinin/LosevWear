@@ -1,12 +1,14 @@
 const state = {
     params: {
-        price: 999,
-        items: 1,
+        price: 0,
+        items: 0,
     },
     colors: ["yellow", "red", "purple", "orange"],
 };
 
 createContent = () => {
+
+    setParams(window.location.search);
     
     setCart();
     setLinks();
@@ -43,17 +45,6 @@ randomColor = () => {
     }
 }
 
-shuffle = (array) => {
-    let j, x, index;
-    for (index = array.length - 1; index > 0; index--) {
-        j = Math.floor(Math.random() * (index + 1));
-        x = array[index];
-        array[index] = array[j];
-        array[j] = x;
-    }
-    return array;
-}
-
 getBuyUrl = (type) => {
     let params = '?';
     params += 'type=' + type;
@@ -63,12 +54,18 @@ getBuyUrl = (type) => {
     return params;
 }
 
+getHomeUrl = () => {
+    let params = '?';
+    params += '&price=' + state.params.price;
+    params += '&items=' + state.params.items;
+    return params;
+}
+
 setParams = (query) => {
     query = query.slice(1);
     query.split('&').map(param => {
         state.params[param.split('=')[0]] = param.split('=')[1];
     });
-    console.log(state.params);
 }
 
 setCart = () => {
@@ -80,7 +77,10 @@ setLinks = () => {
     $(".t-shirts").attr("href", $(".t-shirts").attr("href") + getBuyUrl("t-shirts"));
     $(".hoodies").attr("href", $(".hoodies").attr("href") + getBuyUrl("hoodies"));
     $(".sweatshirts").attr("href", $(".sweatshirts").attr("href") + getBuyUrl("sweatshirts"));
-    console.log('links are set');
+
+    $(".home").each(function() {
+        $(this).attr("href", "index.html" + getHomeUrl());
+    });
 }
 
 createContent();

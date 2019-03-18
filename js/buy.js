@@ -1,10 +1,10 @@
 const state = {
-    cart: {
+    products: [],
+    params: {
+        type: 't-shirts',
         price: 0,
         items: 0,
     },
-    products: [],
-    params: {},
 }
 
 setParams = (query) => {
@@ -12,7 +12,8 @@ setParams = (query) => {
     query.split('&').map(param => {
         state.params[param.split('=')[0]] = param.split('=')[1];
     });
-    console.log(state.params);
+    state.params.price = parseInt(state.params.price);
+    state.params.items = parseInt(state.params.items);
     setActiveNav();
 }
 
@@ -67,17 +68,17 @@ getHoodies = () => {
 getSweatshirts = () => {
     return [{
         name: 'Свитшот Мопс',
-        id: '03003',
+        id: '03001',
         src: 'images/sweatshirts/mops/1.jpg',
         price: 1490,
     }, {
         name: 'Свитшот',
-        id: '03001',
+        id: '03002',
         src: 'images/sweatshirts/corgi/1.jpg',
         price: 1490,
     }, {
         name: 'Свитшот Корги',
-        id: '03002',
+        id: '03003',
         src: 'images/sweatshirts/sweatshirt/1.jpg',
         price: 1490,
     },];
@@ -102,7 +103,6 @@ createContent = () => {
     setParams(window.location.search);
 
     setCart();
-    setLinks();
 
     switch(state.params.type) {
         case 't-shirts':
@@ -120,27 +120,45 @@ createContent = () => {
     
     arrangeItems();
 
+    setLinks();
+
     $(".menu-element").each(function() { $(this).addClass(randomColor()) });
 }
 
 setLinks = () => {
-    console.log('links before set:');
-    console.log($(".t-shirts").attr("href") + getBuyUrl("t-shirts"));
-    console.log($(".hoodies").attr("href") + getBuyUrl("hoodies"));
-    console.log($(".sweatshirts").attr("href") + getBuyUrl("sweatshirts"));
     $(".t-shirts").attr("href", $(".t-shirts").attr("href") + getBuyUrl("t-shirts"));
     $(".hoodies").attr("href", $(".hoodies").attr("href") + getBuyUrl("hoodies"));
     $(".sweatshirts").attr("href", $(".sweatshirts").attr("href") + getBuyUrl("sweatshirts"));
-    console.log('links are set');
+
+    $(".menu-element").each(function() {
+        $(this).attr("href", $(this).attr("href") + getItemUrl($(this).prop("id")));
+    });
+
+    $(".home").each(function() {
+        $(this).attr("href", $(this).attr("href") + getHomeUrl());
+    });
 }
 
 getBuyUrl = (type) => {
     let params = '?';
-    params += 'type=' + type + '&';
-    for (let key in state.params) {
-        if (key !== 'type') 
-            params += '&' + key + '=' + state.params[key];
-    }
+    params += 'type=' + type;
+    params += '&price=' + state.params.price;
+    params += '&items=' + state.params.items;
+    return params;
+}
+
+getItemUrl = (id) => {
+    let params = '?';
+    params += 'id=' + id + '&';
+    params += '&price=' + state.params.price;
+    params += '&items=' + state.params.items;
+    return params;
+}
+
+getHomeUrl = () => {
+    let params = '?';
+    params += '&price=' + state.params.price;
+    params += '&items=' + state.params.items;
     return params;
 }
 
@@ -153,13 +171,13 @@ arrangeItems = () => {
             $(".container.items").append("<div class='row'></div>");
         }
         const element = 
-        "<div class='col-sm menu-element'>" + 
+        "<a href='item.html' class='col-sm menu-element' id='" + item.id + "' >" + 
             "<img src='" + item.src + "' alt='" + item.id + "'>" + 
             "<div class='description'>" +
                 "<div class='name'>" + item.name + "</div>" +
                 "<div class='price'>" + item.price + " р.</div>" +
             "</div>" +
-        "</div>";
+        "</a>";
         $(".container.items").find(".row").last().append(element);
     });
     while ($(".container.items").find(".row").last().find(".col-sm").length < 3) {
