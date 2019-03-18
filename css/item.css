@@ -1,9 +1,18 @@
 .content {
   margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.content .col-sm {
+  margin-bottom: 30px;
 }
 
 .col-sm img {
   width: 100%;
+}
+
+.container.hidden {
+  display: none;
 }
 
 .description {

@@ -178,10 +178,38 @@ getHomeUrl = () => {
 }
 
 arrangeItems = () => {
+    console.log('arrange started');
     const item = state.items.find(elem => elem.id == state.params.id);
-    $(".item-image").each(function(index) {
-        $(this).attr("src", item.src[index]);
+    console.log('item ', item);
+    item.src.forEach((link, index) => {
+        console.log('link ', link, ' index ', index);
+        if (index === 0) {
+            $(".content").append("<div class='container'></div>");
+        }
+        if (index % 3 === 0) {
+            $(".content").find(".container").append("<div class='row'></div>");
+        }
+        const element = 
+        "<div class='col-sm'>" + 
+            "<img class='item-image' src='" + link + "' >" + 
+        "</div>";
+        $(".content").find(".container").find(".row").last().append(element);
+
     });
+
+    if ($(".content").find(".container").find(".row").last().find(".col-sm").length === 3) {
+        $(".content").find(".container").append("<div class='row'></div>");
+    }
+
+    while ($(".content").find(".container").find(".row").last().find(".col-sm").length < 2) {
+        $(".content").find(".container").find(".row").last().append("<div class='col-sm'></div>");
+    }
+
+    $(".description").appendTo($(".content").find(".container").find(".row").last());
+
+    // $(".item-image").each(function(index) {
+    //     $(this).attr("src", item.src[index]);
+    // });
 
     $(".description").find(".name").text(item.name);
     $(".description").find(".price").text(item.price);
