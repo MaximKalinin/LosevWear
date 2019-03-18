@@ -177,10 +177,14 @@ getHomeUrl = () => {
 }
 
 arrangeItems = () => {
+    const item = state.items.find(elem => elem.id == state.params.id);
     $(".item-image").each(function(index) {
-        console.log(state, state.items.find(elem => elem.id == state.params.id));
-        $(this).attr("src", state.items.find(elem => elem.id == state.params.id).src[index]);
+        $(this).attr("src", item.src[index]);
     });
+
+    $(".description").find(".name").text(item.name);
+    $(".description").find(".price").text(item.price);
+
     // const item = state.items.find(item => item.id === state.params.id);
     // item.src.map((src, index) => {
     //     if (index === 0) {
