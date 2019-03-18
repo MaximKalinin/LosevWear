@@ -2,7 +2,8 @@ const state = {
     params: {
         price: 999,
         items: 1,
-    }
+    },
+    colors: ["yellow", "red", "purple", "orange"],
 };
 
 createContent = () => {
@@ -22,6 +23,35 @@ createContent = () => {
             $(".menu-button").find("img").attr("src", "images/close.svg");
         }
     });
+    
+    $(".menu-element").each(function() { $(this).addClass(randomColor()) });
+    $(".feature").each(function() { $(this).addClass(randomColor()) });
+}
+
+randomColor = () => {
+    switch (Math.floor((Math.random() * 4))) {
+        case 0:
+            return "yellow";
+        case 1:
+            return "red";
+        case 2:
+            return "orange";
+        case 3:
+            return "purple";
+        default:
+            return "black";
+    }
+}
+
+shuffle = (array) => {
+    let j, x, index;
+    for (index = array.length - 1; index > 0; index--) {
+        j = Math.floor(Math.random() * (index + 1));
+        x = array[index];
+        array[index] = array[j];
+        array[j] = x;
+    }
+    return array;
 }
 
 getBuyUrl = (type) => {

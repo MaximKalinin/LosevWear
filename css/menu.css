@@ -2,7 +2,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: center;
-  padding: 15px 0;
+  padding: 7px 0;
   position: fixed;
   top: 0;
   right: 0;
@@ -50,6 +50,7 @@
 }
 
 .cart {
+  padding-right: 40px;
   width: 33.3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,12 +68,13 @@
 }
 
 .menu-button {
+  padding-left: 40px;
   display: none;
 }
 
 @media (max-width: 768px) {
   .cart {
-    width: auto;
+    width: 30%;
   }
   .menu-items {
     display: none;

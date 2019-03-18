@@ -103,9 +103,6 @@ createContent = () => {
 
     setCart();
     setLinks();
-    console.log(state.params);
-
-    
 
     switch(state.params.type) {
         case 't-shirts':
@@ -122,6 +119,8 @@ createContent = () => {
     }
     
     arrangeItems();
+
+    $(".menu-element").each(function() { $(this).addClass(randomColor()) });
 }
 
 setLinks = () => {
@@ -168,6 +167,21 @@ arrangeItems = () => {
     }
 }
 
+randomColor = () => {
+    switch (Math.floor((Math.random() * 4))) {
+        case 0:
+            return "yellow";
+        case 1:
+            return "red";
+        case 2:
+            return "orange";
+        case 3:
+            return "purple";
+        default:
+            return "black";
+    }
+}
+
 setActiveNav = () => {
     document.getElementsByClassName('menu')[0].getElementsByClassName('menu-item ' + state.params.type)[0].classList.add('active');
 }
@@ -180,6 +194,7 @@ $(document).ready(() => {
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
+        autoplayHoverPause: true,
         responsive : {
             0: {
                 items: 1,

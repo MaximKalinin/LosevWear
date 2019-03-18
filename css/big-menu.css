@@ -36,7 +36,39 @@
 }
 
 .menu-element .description .price {
-  color: #ccc;
+  color: #a1a1a1;
+}
+
+.menu-element.red:hover:after {
+  border-color: #FE6464;
+}
+
+.menu-element.orange:hover:after {
+  border-color: #FF9F46;
+}
+
+.menu-element.yellow:hover:after {
+  border-color: #FDFF8A;
+}
+
+.menu-element.purple:hover:after {
+  border-color: #F155FF;
+}
+
+.feature.red {
+  border-color: #FE6464;
+}
+
+.feature.orange {
+  border-color: #FF9F46;
+}
+
+.feature.yellow {
+  border-color: #FDFF8A;
+}
+
+.feature.purple {
+  border-color: #F155FF;
 }
 
 .feature {
