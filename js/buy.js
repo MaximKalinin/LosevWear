@@ -86,9 +86,26 @@ getSweatshirts = () => {
 createContent = () => {
     $(".no-js").remove();
 
+    $(".menu-button").click(() => {
+        console.log($(".menu-items").hasClass("active"));
+        if ($(".menu-items").hasClass("active")) {
+            $(".menu-items").removeClass("active");
+            $(".cart").removeClass("active");
+            $(".menu-button").find("img").attr("src", "images/menu.svg");
+        } else {
+            $(".menu-items").addClass("active");
+            $(".cart").addClass("active");
+            $(".menu-button").find("img").attr("src", "images/close.svg");
+        }
+    });
+
     setParams(window.location.search);
 
     setCart();
+    setLinks();
+    console.log(state.params);
+
+    
 
     switch(state.params.type) {
         case 't-shirts':
@@ -105,6 +122,27 @@ createContent = () => {
     }
     
     arrangeItems();
+}
+
+setLinks = () => {
+    console.log('links before set:');
+    console.log($(".t-shirts").attr("href") + getBuyUrl("t-shirts"));
+    console.log($(".hoodies").attr("href") + getBuyUrl("hoodies"));
+    console.log($(".sweatshirts").attr("href") + getBuyUrl("sweatshirts"));
+    $(".t-shirts").attr("href", $(".t-shirts").attr("href") + getBuyUrl("t-shirts"));
+    $(".hoodies").attr("href", $(".hoodies").attr("href") + getBuyUrl("hoodies"));
+    $(".sweatshirts").attr("href", $(".sweatshirts").attr("href") + getBuyUrl("sweatshirts"));
+    console.log('links are set');
+}
+
+getBuyUrl = (type) => {
+    let params = '?';
+    params += 'type=' + type + '&';
+    for (let key in state.params) {
+        if (key !== 'type') 
+            params += '&' + key + '=' + state.params[key];
+    }
+    return params;
 }
 
 arrangeItems = () => {
@@ -136,11 +174,23 @@ setActiveNav = () => {
 
 $(document).ready(() => {
     createContent();
+
     $(".lookbook").owlCarousel({
         loop: true,
         autoplay: true,
         autoplayTimeout: 4000,
         smartSpeed: 1000,
+        responsive : {
+            0: {
+                items: 1,
+            },
+            500: {
+                items: 2,
+            },
+            700: {
+                items: 3,
+            },
+        },
     });
 });
 

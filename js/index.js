@@ -9,6 +9,19 @@ createContent = () => {
     
     setCart();
     setLinks();
+
+    $(".menu-button").click(() => {
+        console.log($(".menu-items").hasClass("active"));
+        if ($(".menu-items").hasClass("active")) {
+            $(".menu-items").removeClass("active");
+            $(".cart").removeClass("active");
+            $(".menu-button").find("img").attr("src", "images/menu.svg");
+        } else {
+            $(".menu-items").addClass("active");
+            $(".cart").addClass("active");
+            $(".menu-button").find("img").attr("src", "images/close.svg");
+        }
+    });
 }
 
 getBuyUrl = (type) => {

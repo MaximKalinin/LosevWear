@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../../sass/lookbook.sass"
-    ],
-    "names": [],
-    "file": "lookbook.min.css"
-}

@@ -14,12 +14,17 @@
     <title>Losev Wear</title>
 </head>
 <body>
-    <div class="container-fluid menu">
+    <!-- <div class="container-fluid menu">
         <div class="row">
-            <div class="col-sm menu-items">
-                <a href="buy.html" class="menu-item t-shirts">ФУТБОЛКИ</a>
-                <a href="buy.html" class="menu-item hoodies">ХУДИ</a>
-                <a href="buy.html" class="menu-item sweatshirts">СВИТШОТЫ</a>
+            <div class="col-sm nav">
+                <div class="menu-items">
+                    <a href="buy.html" class="menu-item t-shirts">ФУТБОЛКИ</a>
+                    <a href="buy.html" class="menu-item hoodies">ХУДИ</a>
+                    <a href="buy.html" class="menu-item sweatshirts">СВИТШОТЫ</a>
+                </div>
+            </div>
+            <div class="col-sm menu-button">
+                    <img src="images/menu.svg" class="">
             </div>
             <div class="col-sm logo">
                     <a href="index.html"><img class="" src="images/logoTOP.jpg" alt="logo"></a>
@@ -28,6 +33,24 @@
                 <span class="item-count">3</span>/<span class="total-price">5970</span> р.
                 <img class="icon" src="images/shop.png" alt="cart">
             </div>
+        </div>
+    </div> -->
+
+    <div class="menu">
+        <div class="menu-items">
+            <a href="buy.html" class="menu-item t-shirts">ФУТБОЛКИ</a>
+            <a href="buy.html" class="menu-item hoodies">ХУДИ</a>
+            <a href="buy.html" class="menu-item sweatshirts">СВИТШОТЫ</a>
+        </div>
+        <div class="menu-button">
+                <img src="images/menu.svg">
+        </div>
+        <div class="logo">
+                <a href="index.html"><img class="" src="images/logoTOP.jpg" alt="logo"></a>
+        </div>
+        <div class="cart">
+            <span class="item-count">3</span>/<span class="total-price">5970</span> р.
+            <img class="icon" src="images/shop.png" alt="cart">
         </div>
     </div>
 
@@ -153,6 +176,17 @@
                 autoplay: true,
                 autoplayTimeout: 4000,
                 smartSpeed: 1000,
+                responsive : {
+                    0: {
+                        items: 1,
+                    },
+                    500: {
+                        items: 2,
+                    },
+                    700: {
+                        items: 3,
+                    },
+                },
             });
 
             $(".preview-carousel").owlCarousel({

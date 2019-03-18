@@ -1,26 +1,85 @@
 .menu
+    flex-wrap: wrap
     text-align: center
     padding: 15px 0
     position: fixed
     top: 0
     right: 0
+    left: 0
+    display: flex
     z-index: 2
     background-color: white
     box-shadow: 0 0 20px rgba(0, 0, 0, .3)
-.menu-items
+    justify-content: space-between
+    align-items: center
+.nav
     display: flex
     align-items: center
     justify-content: center
+.menu-items
+    width: 33.3%
+    min-width: 330px
 .menu-item
     display: inline
     margin: 0 10px
     font-weight: 400
 .logo
+    // width: 33.3%
     img
         height: 50px
 .cart
+    width: 33.3%
     display: flex
     align-items: center
     justify-content: flex-end
 .active
     font-weight: 700
+.menu-button
+    display: none
+
+
+
+
+
+@media(max-width: 768px)
+    .cart
+        width: auto
+    .menu-items
+        display: none
+        width: 100%
+        order: -1
+        a
+            display: block
+            margin: 10px
+    .menu-items.active
+        display: block
+    .nav
+        display: none
+        width: 100vw !important
+        margin: 0 auto 25px auto
+        .menu-item
+            display: block
+            margin: 20px 20px
+    .logo
+        width: 50%
+    .menu-button
+        display: flex
+        width: 20%
+        align-items: center
+        img
+            height: 2em
+
+@media(max-width: 400px)
+    .cart
+        width: 30%
+        margin-right: 0
+        order: -1
+        margin: 20px auto
+        width: 100%
+        display: flex
+        justify-content: center
+        display: none
+    .cart.active
+        display: block
+    .menu-button
+        width: 50%

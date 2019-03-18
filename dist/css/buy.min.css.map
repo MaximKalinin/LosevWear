@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,KAAK,CAAG",
-    "sources": [
-        "../../sass/buy.sass"
-    ],
-    "names": [],
-    "file": "buy.min.css"
-}
