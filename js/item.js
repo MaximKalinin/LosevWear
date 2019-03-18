@@ -81,10 +81,10 @@ const state = {
             name: 'Свитшот Мопс',
             price: 1490,
             src: [
-                'images/sweatshirts/mops/1.jpg',
-                'images/sweatshirts/mops/2.jpg',
-                'images/sweatshirts/mops/3.jpg',
-                'images/sweatshirts/mops/4.jpg',
+                'https://lh3.googleusercontent.com/CAYO9YeKyyltoBs-yUYXecBhoFBnd5UCBNHVrmsDoMOpgztEveTRUaWTEFXBhtjQDsA6vLnVhsEDhdrEQqaoCD7l5IO3To_NYafP-Z-lVSdjgtgTKSm8ALOe5QRQyk9MLFwIHry6FBLoNVLkB3R1R1gE3zWq_RrbhJVHVQaIDMQoOWle3wmyTHiSdoXPXXgQtT6r9PYRSLoMX2E3N1rui7j_f06e0VRItk7kTrsQZwzASqc0t_dNPb0b-XsivJm2B_qCvfh0yCRsBF7y9x6yrm9HQpPJMYYDEUic4NN6J89rxgy4TjQsEjfuZ6kZ43JNs8xCpkHvEsw7XuNnQPsTyXk9-kE-nkjceLLFSS5qrhbcuiIpeMcpla7ip4BQavV5mgGaDbsEfe1kiX5WSmCJnBvcq4rNF35G6fCju-MxDzj-ck2lBg-V2dsbELS9wWh9a41ZcV221t9gKEYPwyRqq9cUVFLtT2QN1NkO2-l8NlmktYQQ99wAv-aAE0wwkvQX-Zd0Yn1zDRg9E13PMEwo0bKrCNoMpaH-ZIEUjhkPzdBQ4vagAywUs0X7iSJdODBbJoNSXGnTde3dNQcypphD2OJLaPBeRuS0IMw7KjYMQwYq6GZVPjfGiHWBH6d2V4yQeWCfgl7iqP7MpljZA6rQ-jR5mIgW264=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/tZlyb-t-t7LarLzUyzPFgKoEHLNIZkXxxdENmkJHH2ar43nI4thmQno6_RgNPJ8ER9oU0wWRzRdHc2r9CnxofFFQvLS0SqW74fsboy3MS1dvbSPbrBN3Bcwj0uBcxEL6wCJRRdFF7Q1cp5TZvmoy0apM05snoCUHEhmnF9Hs-5mbLP2n0Ng7slkOlAFaLPOT009dTDvqT6wnfaYqER2lgGxXWoDkk73E6M6ianI5Yyz4mg9f_1VAOd5wx1IHY-HJ6hymYTF1FO1iI4zSnm0kUvYMatxoOrxhITyp5UoS1i6fHzwK51wR4i3RKGALOOwe9W_Ps94ItQLIyaUe2d35aQsSFooeguot03rKfLx50sz77TUbtRsIybBaVpfSDlaYzyv-KiHYSYxLhbia9ysC89P1BIUcfh0I065qa421wGU9RjYSHJTBChjnpxUWmvwwPzwX-WN2p-hw-r15M2PUP2aIhq7h0YXNjXK9YPSnhgdu0ybtgHAVAzYcYvwYjOE6XJDYzfxRADJdxOM6mzNqg1CkzkFefiDAZwAd5Q_fFPyCsmhdNxiTEa1Z0fCmLOHQ_ncyaIUSDtrk6DYeSNagwBVXQGObPJNZnxeTTsv-XSqaDYeVakQ_Bv9tp_3Mvmginx17QE8pVpXYeN8wJj3sfWifWD8XJOo=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/x-A6iMClPnx8djM-KNoaPdz92oyaWrkcNHzw4Y0Ms2zvUrBOQ2YC9K26W1vwLTJ8Esw8G-yrOZvoaEW0jUq8xD5Z3b31qhJGtiPBnFiMocu8O4R1KrzQYGEIuzs6NOfCfXgd-QoxXvnNApL6Ka6JHTBb_ennHz3lPlvLl9T8x6r13tgweD7gjFwGycaYGCD6VLApbBu2Aa7UPeLGWh2W7AzBX7yFFwv8-OBQWEobU98G-PJ_S93ZS5X5AdAAnqUpSduEXtmNX9f5Lg7NMM_83L4kB3jnLIe2fjVedLauZ8biy6I8KB9iwbUxRBfyONZ9KYMC4EXtBrvdjSyDK35coIqSWNBTyGJPwf5kzhlKIuwrGNuL5zHYKSRW5LrcImWVS5nJntfOEHjyYRCqzzrgG-Wr4I2l1iJgORzJ7Q2MBA4QKLd9S5gcpiS148nJ2V1FX_CH6YndzR6Ehkv8TJzmmKBB-ZKXIaO9aekLyXwZsge4spERxCKYoaG5WKs3gA_49hVMFIWg1bHgnQVefu9uozq6W4qesOLp9Dn6KU2NP6PHw4zEOXH7xCYopkKH4CTQuW7MgIC_ygF0fAhM8-T92zM83kaXXDinv1QD7iygBmfrW-UqE-DJzZ1FduEpwEQPMfeMSY7coJ0cdOLpQmCOe2XKH86LvYc=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/EZRMeiDMM0vYEX54BSAJCnNogEXYX4QR8PnUuirkI2VkQ4z0FR4HAq-pLln_tdZ2L84R4SHD1cyZ0kEDMSMj2gn-o-vfvzn9HxqZ8fO2KBJ8tMINtFNjusQh1wZRsYslXh01OINRtHK6ykUPfBn9djiDvpMe6e7ufF6gwBto1PlH0OmT03KVp7H0EFalnj75wLf5OeO8NqwtA4KiiXWHflC5fZlCL7LYxagkJHs6SdyAlBTR8yOPU5LCjn_MYreuXGfNr9dQQnm6V9n00flhmJGK9EwYF_ExvJRt9OTU56ki2jZLMYhxKwBRjc6SXr93vHp3vacsju1A2r5kytv639TIVS0gx4LSRxJdmivc1n1PUcOlz2u9xgD7Stut4_AiHaSvxay3TXlIAoQlyOl0_eUC1XcZA1hXwlZ1wVMBgdnfP5Jsk7FWg95HRokYGJ7f-qcLyRQm52YB3yWU7umLmXsZRdLaEhCojzvri7I3bSlUZQsbFVd1VYQDmHVYepbigikkHUQ0n0cI2_EN4eC-FHh4nSfbwnL0zuV1a0VwPgmsqpSqctxGFRWTL469c9RuU2uF5NIiKnLag5X6hZRbgjEfM2dgz_zTV7LdKJOSlsjeaWSh44zSGMcpXtA400aNjCauWMPxcm3sAm4WfHyc8SGHoUA3_O8=w1000-h1498-no',
             ],
         },
         {
@@ -92,10 +92,10 @@ const state = {
             name: 'Свитшот',
             price: 1490,
             src: [
-                'images/sweatshirts/sweatshirt/1.jpg',
-                'images/sweatshirts/sweatshirt/2.jpg',
-                'images/sweatshirts/sweatshirt/3.jpg',
-                'images/sweatshirts/sweatshirt/4.jpg',
+                'https://lh3.googleusercontent.com/dqebxv_wr3vygh8OPc2a7u-RsYxxcI61D4NpAedwCO0EvBa8QRpI-vZ_GWom01rC_WvcRsO3mZt0xUOaSIRom5DyiQJQi2D05GAzO3jsmY3PwH0gKgN78bLTNY-WOAG86E3kCFl5jGaWRMYqsQk9fRLgmE5KBgmuPNfcYZ17NY6cgulzAANDfHr9wTUuRPt-aY5DNd2oykcyVbp3gvmf2mlY_2StyfWIkMHM527UjZepBkDzqCMt5ZWWxb3_xZTbtIWxeaH5AjKgGagfTVNTz3swt_7DaGzIiYTAwL5cGam9tuuLZu2ElupK6dI-5M1xvADxu2aACzd0f0wGePzwTanRgqGCJS1XD1u9RzUD_72vlGl9U_b3HXfqDIDC-4mFcoWMAwX9ywlLey51KiDSGq6FKAcO4Ap2tczFKsRKPqdAEe1CUP2hNoLTlaN6BqRyv1CMrSuze69KhcWTAOVuOZxEHHuHL2PUo9s83iHSNm9O9jWTyku6r355XGJWrDGXrhvRdNTCJM_ssrNiI9IiL3gtXrbBt14IVKSrikGB39JRtm2YC21RqDkOlMvEBtU9unvU7QevAp_X_yoKrTmU1_IdkCJpXvH_00pnN2gnM8URt5yJWo4-xtLiB6vYfm4rscyR2mti1IXXTiP4mXMLXrBIa0bAME0=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/arxKiHNEErFN5sZFSENPLf_hJdKEqEj-opiFAhaMc1wpxdAbDqcLHpe_IyUIoTID_owiwFt3qGVchvu6-ys5MMXuvOyFeZ12M27fJ69VTbcGn3IcxWTbvvLveZ4bGO1TJ079NhHHozCKjPsb1k539XZPUzZ8Tl1vm3hbCBrX_hYZrQlqE68vTTodV20JC3urU8LFnFs7xgKBr0-MEbMjsOtTRWzi03G7EJffFG4QiGQDn-lyVjUMZwRFWuwMf7TguOjQDgNXzMNxERIRMsH4ySdO9mg4uuLpajIqPQJMvLdVqCVfvNj5NzmKrz_tInK4yWZzd-001QrcsiLrIKN1rwcO91i4WAEE7tzGmt2S_begjZBjcbE-GlOIpoHX0CB2eWGnLrAIbulpXJQKyqcrwNmBg6RS7kLHuW8n_l5tFq5kfYsbWpAr0aHrGxwU6_OJCjeNeMBcU_tx7YG3YjIESm5_uHOTI7kgHR1B0SXIa9VWusyiKcCSI4vm03qz7kzel-FDSA5E5E6LkS_qpTvTaSG8bxQlHM6vfPw2zX8vdKX7eJojrxNin7nwT0T4eSZPDS-AvsSJ9rVjNLiG4wtEACOXQH1JGytYrt3z5A1XmCap6uLTg_70gpKGy_2Afz_52ceLZ4rdPqHrdQ-TW6LInPvD_cvoiaw=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/3i8pGC8dyFxDS85XROhALLbJGQrRlrNpeGPHMq3B3oozx8jyCLo5TVGbBoiwJy6QF9BJPPxd4iNhvo1L_vxwOMZCWgkhnGWhPCv7Jk7ca3-U_yiUv5rk2uKvCTxmQORTvhpXDgeRoaV2KcSMHn2hadxymCUCrdwa4Grz7XvwLarV368SM0k7NGKS8mO8DMH6ugLSWAL10mTYfKKl53xP8cPXWTrZYianOBOZt-TsXB7sIk6YEM3zuxiICIlvetRctxoxW2JiBGPd1A_6V9OIgYDukMi6C8iXFEHJp_Z_oS1mkvjic6C816vjCc7mCvrlF925VGLYXscmo31UUQ6k5r5DZOisbvMq0UWgAqWhfWpajLNeuMu-gYYFXvjKFY8smCf1pDqTrigkuMNflGhWlB3x3jwMBpQdnzE8jzvlB_3hEK120U4DP_-U3JC2hedysnOArf5qNuaSL6LoGXXPrdnhyFhamUDpj3RNJJyklA-jfyQZx75uyqUbBJ-AySGi-jWJILbJRMrLAUCub-J1_frp_xuXwCPgc-ZTLsBNIGckT9GT9PfNxNOxVyxM6fJebhohJSvn5DU4SUiKRjMTXYsTYrBpCJEFcOD8YsIdfyH3cjxgmZOzfjPXTUnAkOa9X8HVppjUMYzHMQx1w0yCqvlSqgmVe14=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/JSqIPYC5Svlr3GlAo-9uYsmPfkqz3qK8ritqWnapFGChdAQk7i1iFkIeyOrc5TdJ6IPMr4npQrjqpqoi7pEm-xaUKjhHVCON1D7-crnvQq6lC9Bo0mvMSy795d8Is-13nS_4ZAcJ74Q49l_g9OPTk1-5Y_E5K3ZB3XdzaCGnYUel9Z7rCpcInFwLOX6cjmoucrf9KvlMB47fvKabYmsjjx0dsDXN7wR0LTm3LnWE4RWfA17J7oYsR_izhX_LIfANdwtuFSwb7yRahpm-OYqGV6mwMD9J3EX6_TDbRFfT3DVmg37e6oZ6uRkBRCt-zIp_F992FadDY20OfNKGaflh-C-QkePjb-XdrExp8nj5VMHK9BJcf2a-fPioEUFSI8oMJnh7u-5k4nqkTjz6vGGOPQlMWMG9PSmgktD5q-i2NIBeVLGkRDQaRtBALYULVmtpkg_x4EppSQxDSjALxWKjO643zdsuggg5E1Z27r-S-0eu7-XF0A7cSHpHHiFIj27eepfHCnWFJQ-fR1NOHKYMLPi-LMPX88SKjT4pq13v6ete23jLn_MAXOqvTsY7RPXy8cgUxtcRFGWE69Np-hcIiYqgno3lwv36ft_zwUPDhnOaWQ8r30lwzaYh_aLncvwIIpgdWAtVOSilO6TG3xwnwjQD_wx1nhk=w1000-h1498-no',
             ],
         },
         {
@@ -103,10 +103,10 @@ const state = {
             name: 'Свитшот Корги',
             price: 1490,
             src: [
-                'images/sweatshirts/corgi/1.jpg',
-                'images/sweatshirts/corgi/2.jpg',
-                'images/sweatshirts/corgi/3.jpg',
-                'images/sweatshirts/corgi/4.jpg',
+                'https://lh3.googleusercontent.com/vPlBT4ePzJO3U0PHXD6ahFFwkcpr9Jqf0DvJbY6Ev5TQZD-2UsEDQe2-eLA1bM_OeFB_3FLuyfGVt3vvrNCdGmEB48V7FA1Pk-yEzwaRG5FWscYIiPUtJ_V3hUbHviUm2NRnvLDbqMdH-rSWO7FsKkJim-c4OOVN1oF6FnAS6bAoOQJ80uBFNi4u7JdHf9gf9huhutWMbup-S0WPHwaAqtdBCEwP_BuJyOykqFXTPyAyl5-7tVaYao600-wtSGTu-ya6qwnC69hhC7g30PeY8BFRz_pha1g3DGmFayDeyLEOFMxj2xzfV8YhI1maZn8uJ4kgvAkCzblo2VjmZqtMYe30U41sntcmHST4u1GsBGDIFtRJihJabiwXlQ8c0uJZHz6s1Dz66FQXsFwnktKsXhDMAKNzXVzOW3n2w7UXDo8ZywASRGTmJlAEZSrFlKWlYovgzykpoisNVyXkDPh08PyqJKihgTomLjRkFHZvOJNvkR2AkbRk9bmRhCj4uaoiBg5L9HzHgjHTopeRhJLxXz9HnKpY6lmZMrHjQbDremzj-nlx2M2PztDc3qLJjgIOp7Meg5S65Kh6F167L8bamy-T1GNIxUtVEBbNHfzKRNuaAsc5rH9VmXwuE66ulZN7Nol_LddLBg8EzwGcBfO_uRjN65koHVo=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/hq7l6_9bdXIod2Q3oASm2lsCEwMsdTVuwEjCTpWP0bEfCF-G_OhJXCNyhDqI_7c-AHnD7JfBxvmOx2ExxQZgHfKmoiu_aTpB8iP1N4x25gX_tl-BwODX-O9k0T_4llre1MefSUONWOwFsZd2z6XbBVGYMz0kBV9oc2yvRu5Y4my2XvU6bmUvUv9LP6LclhOT4mpV2sJRhBWIPw7Fx57OQmy24jO3dB1aJ0XdI-L9UpUD0OJlIv3d9BXxbsmeZpGoa-MQPDwkENaNtos6OJlEKqwlwD8nom5qyzfq4f1pJRgvwh01m_Bk8ZZueWQ3V9qXWni_mjY1dMZcPX3qELWaS4badPh4pqvBy9MO_hc9NJ4abtHtyCTqp6d9xFSYUXhiK3byjty_zqBw-X1xIW06HHZpIbSNgZOUfjE1d_tjh3-nsSIgM7wvSA7aU2_dVn5zghLZIST1ISQUFG9yzpmFpj8ACggvs4BlloNaSxF0G-UP9G0URJC0xGHrNj4VEf6Sbg9-7HyhX3EDWYp7mWKz3U8suGmVBE-FaqCQGH4MzE9xAQeiXR8RQ8r8Q8iFs1TXRb3-ZiX3ND4Onu4IHerg7B1tCeXidN9INELvQRgxAZugdxZB4wLlnEFr1_uHw3CbNhuRPDak7T_UGpcxwMEkaz8uuWy5Yxc=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/kfkZJoISDLrakayYIodfTJ5jBeTI5qmL7W45O5anHCJ3_QdW6ILArpyIKtTnCXQVb8goX6EUh1-jmhRCUL2wNGr-img65Hp4pHoH4kXRncc8MM5Oj8tHbz3ARkTe1Qqaz97aMeW4vv7ShQdkP--x6WxapBBvASly0dQnZ_MdadOky-PS-6xxw2DTf1knvFPSdIvMtTfGFbEu0G6My01OpQ1c_2pkZEQ145YxgKSfa-Qg8V3tJ5XkGREJRajDViywE9UyFuTUqrMKYraHCjo7Hmz4ww6Hm_zJ5ZzgSDpEAc87xTS6TVX0seg-WwMwhM62SxmFHgNP3-fDWypekdHpIZRS6-hGm0x0EshCnX4BRpP8dpWSYXrzdJ5trQQPgltHh52plpoBYNS5cMsqIVjqAYd8BFTOj-2qXBeCn4KFsLiN0yYgXOxpx2175Xo8A_j1nk08BksbfcFREHQxgsPKtkmiQwONEqWFLVUF-8bKYhLKnwh8-FbndSxkYmRyFZdMNMXvnGGJY7tc6KDiclEbByflIw6b6tUfLbqzlwDS6KC66HRBh793KCrUXQBVSaxRt2IaNg9XsTAIqdONUkIr0j2tAXcqWRY6fsGOwH8Aq4Zk2zbP_OvlCVHdaN2b2nDF-hF1UpeQidTzeIle4lXSorBSOrL_Omk=w1000-h1498-no',
+                'https://lh3.googleusercontent.com/fNMFx1E-57b-DS3d6Wn4Vn7FBZRONgNLaRkijbQ3FMJuIIo4JVaKwstBKvMEGXoPhXpX5zBoN2k-8rw9hKNUhl-yx902NNyV4Via7xI7sCvpC_DKIbCq80lRDSVzA9QVUXx92c5YVV9QbZAUV1JPFaC4McGTyLla-vs93_GC8UZ7wvU4YctKz5N2ezgmQJyjnxekYNvfjZ6FGntHVHY5v_oQaqKo12tma-vwBtvMwkN_0HIjn2JZtNR_ygfyuuaTPSo-iyqJWdzyNUrBJqAk7iOJdx_epvVVi5eMb_P7REJB4zfm35fAtagEikKkYB4P4W80v_XtdnjtV9LMrZRD_SoSvpcboJT7wOzd4xc2Dy1zdan9crWIt0e7MhfJQ3p6ALSRo9yVKSvxbgU6X94dE0zIDkl4A6Mfau7xYN8iWVhcc9qGFfK-5wBLv5Ys4kqKP64Yd7kOXiDZmsyq7TvLYPQHsNcm7A3ZZ5C3Zi2X65Iv0JweLnYJHihsk2cpDqYgHT80GWkuJLsW6WW8bIqIxEYwPKIHR6lKz0osE7yukjZjEHIxjK79WiHrzYQELPcyK3mf0600LAPR_QNp_f-HoLdCm19_wVEOk9fokOcbqlVqor4m8LkiS3l4RPWkX9RSOwDnu0MquGgvor6-9YDM31m-xYiH648=w1000-h1498-no',
             ],
         },
     ],
@@ -128,7 +128,7 @@ setCart = () => {
 }
 
 createContent = () => {
-    $(document.body).hide();
+    $("body").hide();
     $(".no-js").remove();
 
     $(".menu-button").click(() => {
@@ -149,7 +149,7 @@ createContent = () => {
 
     setCart();
     setLinks();
-    $(document.body).show();
+    $("body").show();
 }
 
 setLinks = () => {
