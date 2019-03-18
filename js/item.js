@@ -46,10 +46,10 @@ const state = {
             name: 'Худи Корги',
             price: 1490,
             src: [
-                'images/tshirts/corgi/0.jpg',
-                'images/tshirts/corgi/1.jpg',
-                'images/tshirts/corgi/2.jpg',
-                'images/tshirts/corgi/3.jpg',
+                'images/hoodies/corgi/0.jpg',
+                'images/hoodies/corgi/1.jpg',
+                'images/hoodies/corgi/2.jpg',
+                'images/hoodies/corgi/3.jpg',
             ],
         },
         {
@@ -57,10 +57,10 @@ const state = {
             name: 'Худи Лосев',
             price: 1490,
             src: [
-                'images/tshirts/losev/1.jpg',
-                'images/tshirts/losev/2.jpg',
-                'images/tshirts/losev/3.jpg',
-                'images/tshirts/losev/4.jpg',
+                'images/hoodies/losev/1.jpg',
+                'images/hoodies/losev/2.jpg',
+                'images/hoodies/losev/3.jpg',
+                'images/hoodies/losev/4.jpg',
             ],
         },
         {
@@ -68,11 +68,11 @@ const state = {
             name: 'Худи Мопс',
             price: 1490,
             src: [
-                'images/tshirts/mops/1.jpg',
-                'images/tshirts/mops/2.jpg',
-                'images/tshirts/mops/3.jpg',
-                'images/tshirts/mops/4.jpg',
-                'images/tshirts/mops/5.jpg',
+                'images/hoodies/mops/1.jpg',
+                'images/hoodies/mops/2.jpg',
+                'images/hoodies/mops/3.jpg',
+                'images/hoodies/mops/4.jpg',
+                'images/hoodies/mops/5.jpg',
             ],
         },
         {
@@ -80,10 +80,10 @@ const state = {
             name: 'Свитшот Мопс',
             price: 1490,
             src: [
-                'images/tshirts/mops/1.jpg',
-                'images/tshirts/mops/2.jpg',
-                'images/tshirts/mops/3.jpg',
-                'images/tshirts/mops/4.jpg',
+                'images/sweatshirts/mops/1.jpg',
+                'images/sweatshirts/mops/2.jpg',
+                'images/sweatshirts/mops/3.jpg',
+                'images/sweatshirts/mops/4.jpg',
             ],
         },
         {
@@ -91,10 +91,10 @@ const state = {
             name: 'Свитшот',
             price: 1490,
             src: [
-                'images/tshirts/sweatshirt/1.jpg',
-                'images/tshirts/sweatshirt/2.jpg',
-                'images/tshirts/sweatshirt/3.jpg',
-                'images/tshirts/sweatshirt/4.jpg',
+                'images/sweatshirts/sweatshirt/1.jpg',
+                'images/sweatshirts/sweatshirt/2.jpg',
+                'images/sweatshirts/sweatshirt/3.jpg',
+                'images/sweatshirts/sweatshirt/4.jpg',
             ],
         },
         {
@@ -102,10 +102,10 @@ const state = {
             name: 'Свитшот Корги',
             price: 1490,
             src: [
-                'images/tshirts/corgi/1.jpg',
-                'images/tshirts/corgi/2.jpg',
-                'images/tshirts/corgi/3.jpg',
-                'images/tshirts/corgi/4.jpg',
+                'images/sweatshirts/corgi/1.jpg',
+                'images/sweatshirts/corgi/2.jpg',
+                'images/sweatshirts/corgi/3.jpg',
+                'images/sweatshirts/corgi/4.jpg',
             ],
         },
     ],
@@ -127,6 +127,7 @@ setCart = () => {
 }
 
 createContent = () => {
+    $(document.body).hide();
     $(".no-js").remove();
 
     $(".menu-button").click(() => {
@@ -143,8 +144,11 @@ createContent = () => {
 
     setParams(window.location.search);
 
+    arrangeItems();
+
     setCart();
     setLinks();
+    $(document.body).show();
 }
 
 setLinks = () => {
@@ -173,24 +177,28 @@ getHomeUrl = () => {
 }
 
 arrangeItems = () => {
-    const item = state.items.find(item => item.id === state.params.id);
-    item.src.map((src, index) => {
-        if (index === 0) {
-            $(".content").append("<div class='container items'></div>");
-        }
-        if (index % 3 === 0) {
-            $(".container.items").append("<div class='row'></div>");
-        }
-        const element = 
-        "<div class='col-sm menu-element'>" + 
-            "<img src='" + src + "' alt='" + item.id + "'>" + 
-        "</div>";
-        $(".container.items").find(".row").last().append(element);
+    $(".item-image").each(function(index) {
+        console.log(state, state.items.find(elem => elem.id == state.params.id));
+        $(this).attr("src", state.items.find(elem => elem.id == state.params.id).src[index]);
     });
-    const element = "<div class='col-sm menu-element'></div>";
-    while ($(".container.items").find(".row").last().find(".col-sm").length < 3) {
-        $(".container.items").find(".row").last().append("<div class='col-sm'></div>");
-    }
+    // const item = state.items.find(item => item.id === state.params.id);
+    // item.src.map((src, index) => {
+    //     if (index === 0) {
+    //         $(".content").append("<div class='container items'></div>");
+    //     }
+    //     if (index % 3 === 0) {
+    //         $(".container.items").append("<div class='row'></div>");
+    //     }
+    //     const element = 
+    //     "<div class='col-sm menu-element'>" + 
+    //         "<img src='" + src + "' alt='" + item.id + "'>" + 
+    //     "</div>";
+    //     $(".container.items").find(".row").last().append(element);
+    // });
+    // const element = "<div class='col-sm menu-element'></div>";
+    // while ($(".container.items").find(".row").last().find(".col-sm").length < 3) {
+    //     $(".container.items").find(".row").last().append("<div class='col-sm'></div>");
+    // }
 }
 
 $(document).ready(() => {

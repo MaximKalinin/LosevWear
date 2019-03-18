@@ -72,19 +72,20 @@ getSweatshirts = () => {
         src: 'images/sweatshirts/mops/1.jpg',
         price: 1490,
     }, {
-        name: 'Свитшот',
-        id: '03002',
+        name: 'Свитшот Корги',
+        id: '03003',
         src: 'images/sweatshirts/corgi/1.jpg',
         price: 1490,
     }, {
-        name: 'Свитшот Корги',
-        id: '03003',
+        name: 'Свитшот',
+        id: '03002',
         src: 'images/sweatshirts/sweatshirt/1.jpg',
         price: 1490,
     },];
 }
 
 createContent = () => {
+    $(document.body).hide();
     $(".no-js").remove();
 
     $(".menu-button").click(() => {
@@ -123,6 +124,7 @@ createContent = () => {
     setLinks();
 
     $(".menu-element").each(function() { $(this).addClass(randomColor()) });
+    $(document.body).show();
 }
 
 setLinks = () => {
