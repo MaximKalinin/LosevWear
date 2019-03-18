@@ -63,7 +63,7 @@
           justify-content: flex-end;
 }
 
-.active {
+.menu-items.active {
   font-weight: 700;
 }
 
@@ -132,6 +132,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     display: none;
+    padding-right: 0;
   }
   .cart.active {
     display: block;
