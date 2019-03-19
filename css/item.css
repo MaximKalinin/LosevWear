@@ -7,8 +7,16 @@
   margin-bottom: 30px;
 }
 
-.col-sm img {
+.content .col-sm img {
   width: 100%;
+}
+
+.content:after {
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  display: block;
 }
 
 .container.hidden {
@@ -40,6 +48,7 @@
 
 .description .sizes {
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .description .sizes ul {
@@ -86,5 +95,10 @@
 .description .sizes .buy:hover {
   background-color: black;
   color: white;
+}
+
+.description .info div {
+  text-align: center;
+  color: #a1a1a1;
 }
 /*# sourceMappingURL=item.css.map */

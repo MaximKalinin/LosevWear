@@ -54,9 +54,8 @@ randomColor = () => {
 getBuyUrl = (type) => {
     let params = '?';
     params += 'type=' + type;
-    for (let key in state.params) {
-        params += '&' + key + '=' + state.params[key];
-    }
+    params += '&price=' + state.params.price;
+    params += '&items=' + state.params.items;
     return params;
 }
 

@@ -3,9 +3,15 @@
     margin-bottom: 50px
     .col-sm
         margin-bottom: 30px
-.col-sm
-    img
+        img
+            width: 100%
+    &:after
+        content: ''
+        height: 4px
         width: 100%
+        background-color: black
+        display: block
+ 
 .container.hidden
     display: none
 .description
@@ -23,6 +29,7 @@
         margin-bottom: 5px
     .sizes
         display: inline-block
+        margin-bottom: 16px
         ul
             padding: 0
             margin: 0 0 8px 0
@@ -53,3 +60,7 @@
             &:hover
                 background-color: black
                 color: white
+    .info
+        div
+            text-align: center
+            color: #a1a1a1

@@ -34,7 +34,7 @@ const state = {
         {
             id: '01004',
             name: 'Футболка Счастье',
-            price: 1490,
+            price: 990,
             src: [
                 'https://lh3.googleusercontent.com/acGkxtVRAkP3h4BZ3CqH8CjvEe7k7GgSBNB4PO7huGqcudnneiy5ns5DoH6HnNXGtO8B7GObDaR0abI-CN-87mUFQRpYLiJ5CLhRTJHunO_DWzbHeooyFLrd8MsXiIO5CPn0v23QLptt9aXJX9M08w2rMbpgxT_9Rruyqc2Q0sxtPKEtuSVemzSrfTL7JHEoiZnnJZoAh0DpBOm3bRxcJDeGOVeM8-X0mw7Fim__Iyws1wa6zK5m_0OfRxI_IcRzv4xJcVzznfsew-0AUgE2J0BRDo3I-LF-EV9vs6FjSK17IkNu9wL0LuTU1XYpuPGoB7bFTLLgHpRGGwEV8P6GBOzVDdkZS-6ybL1D3HpeBeUE5XPLsTlR3qzJ9V2l8hinOdpVIs-DtmT6mBzn2R85Tssjo9RakclWcZifVaFQMaaEGpRPc5X75myidax-CDGe9OUHrlj5r18O_JrYGAvswEq-wqtMBK3HeI9_a1yGcYbnkM0S8PFejjJOtzDAB4vAYPU2_apSsZG7kXYMfVcJz4dqGjA1uh1iAUhMayzOqQ0n25c3TRafRP-i1ht4WM1nA2VirE6zzdNhuCz5hjBBze8XTv3xayQHNi75kRS4rGBgATaYNm110u3-sBFFPUd7iHxNF3w7rVYcUQ8517NMC_JArVWujhQ=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/Gw96PuMUHL0o513QH62SBF5SQGrsXmtL6q0nYAytYoRfYkdHeMop9Mt6ikfxK84GjpSTHHCzv-xpj4F-7aubs5FJtW99pwy_Cmns0fyEnFqfGzr_oKwrevLDnrGw1r-l7cJK6jTNvrT4xE_Q0UbO7B60ULkqo5B7No_Lylhl2VL74fvkPWASK-Qc9UOUI_7DZQr2ncstfQjjZU1BoOLcFhHnyZvIY55mqMlDx7-3R4DFN1C-n_bzvqLfP9Rd29GjhgiDCvFY6rlfCmxGplJIoXj6Io_25_twuohRg33gMJUt8mnnW0OMMh3DC9gSM4pd2nQ2N2LBfLb5EIneo3PTWGsmXyC2tpLZCb9DItYZ18iksYwrpYfNocYzQs86ZO5GAWydusbJR8OCfBHI69sLlanMfQZ7v7c536Ddk-9s_MdVQs7fT_w8IDc_Z-CDRTKoCltNGIGWn1FDfeZO-uet051TnQHRK_LWA8BzGNDT42sPovvyg1fB3nEcDUuCSjKGehlHP3XyAey2495QdGzZFFs8ed8cBQk0tmYUfQFRFyvub4fo6_tzXK9n7zafHm_BIEHAGWvNasBucbDZwJH8sBYVwbCaWLI171EqSlDMQNOo8GoZzlcmEORMe6HiXkoru3vfroU_9l0KjlXH69iMpUtf_5b9s-w=w1000-h1498-no',
@@ -44,7 +44,7 @@ const state = {
         {
             id: '02001',
             name: 'Худи Корги',
-            price: 1490,
+            price: 2990,
             src: [
                 'https://lh3.googleusercontent.com/7eZMAVbyYmpRCHWdMrYYRL7VHRBhKB0BnRSU5lYYjl9a2cuMj6pjZglAUc1p8aSldn7SelqHU9H6A96256PUQnajWIcqr0uc5kg6roMGtja0W--lJ31jpISi0Dx76kpe7vBrGtRfNmOhVYLG_K-syo7A9KYMecpj-Ujut1ZGkyAFMnb-3c-H2MOxFO2ojnG4DFRQNCG4eIJiQJZLFkdnxQziQxvjt1I0kDsnQ1BEkZIUXurcWGQRiqt4DtsZxD3swDW2Sz1k7MW4GDJWzAOncAwZl2k-6qjOiwBTLL17_WePTiZB3b1-7o94I7n7ofJs-nJEuiJsLbE4yTxlOn3AktiHFKulkVFSmBVANvstblrkgzI8XyDZJnAByKQlFo4zM16dyIVMznmYrbJNeq_11NHZQanePqr6h_lrH01JKUX08s_WgS8H4RooleWVxF_cGLzcyBbMV5D2HgJy9LjCefEWgCpkmYHZfDyAjvVh0ZRlR8oNdSUgqFugNTEbM0bYn0pCXYzhzbZMjyofb0eK9mOU5ldSAXwyhXQzY35qSm0q30VcwLvCrXBvUBTdQONEdldpIeWIYPiKAohWContBGg_iMFBglb71GJbh6q_2QeSG6-0hcUpePe6R0aH31yku9fOC1xvNpnqfQjUngZ0CucNouIaApc=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/zg3UDUTnhOCb0qmceY6ZYskLhBbKVf742qhsm7tCKrYRUtrA3lFt00qWgvo9-OQzEN_orPY3fcHV4Q2RwBAHNxdldQNJb2pOFa1GpVu-PeicEc8q_WmUobEhfAv5FG6Uvvb4ht2tIo68WqBJYYik-1nPghm7kfZeY4yDXtLP4f2T1hhlaWLfbP6zeKezINfOSOTG22Y3g3ZQ7_EJoKrQx5Mgdvaj0Q54P-oncqo6DJuIZri3Ykpes74iONw3bYAToR6_U3frQV0R2fHDnRHD0vGNL6L3lV2gXmnqiyJUEnE8wgXMuSFmUOrXvtRi55MMiSeFxP4t5DFZQ-_x-oCr8bWac2Mv2axK0DS4R3YI5f4H09G7Cll5797weF9qmUt5bQdB4Ypov8KZ6No4Gjd-r_wJfw7GsKh_-SEPmvCPxMXWGS5eMfXCFFJCP-Z5fHVKhYMwLZaDrglXJEfkEMMelOrhr3st6TzxZdw6zLjFsgo7j7uQa2xcQqDBQAWTAa99DYbhlDV0Y0KxF2H0gNtrSq3-cxO9pL7_x-0MtUbT8zTNwndiPYQaGzVjs9MR9KB9K5rSLpac8sLk8MZpheLMs4lHI74ZA3YEEi_g1j4TrqysVn5Sk_l6D7F-RgXU8IVKA9Y3J8Cgt3LQCSE18cLFMeKoiSHDQnw=w1000-h1498-no',
@@ -56,7 +56,7 @@ const state = {
         {
             id: '02002',
             name: 'Худи Лосев',
-            price: 1490,
+            price: 2690,
             src: [
                 'https://lh3.googleusercontent.com/Zo5gtyYOzRFdgiv0sOIXSeXIiRxSIC-dGQQZuhlb2UZESY_SR2zBjZdFc7Xs6kt3wtNQvBmNikxsSXxT-3SuDte7X-rFZp2sBpIvxrB3Ks-iIswQKBjpde-aYpXSbE2d-Ly1OUvmcU7fGxln_pSQN_FZCbwYpVZYN1y5VvAQpArvGs4DR74Y0TQHpgjmcT-IisXxeSMz0t-i7f6HbstN22sxH-YTDFuNobX1SvZcQeK10FK362gIMnUmmeovWD0RLx5VBTU5kJOKj7NhsIKHFKRasJffXPHJrz7risrNYulkWtK4VikAI4XmsO1BC0hW-WrhJjFqZyLW0G0kiHZdOtvCkRvwd7kWAc33oI26xzSFivSBecQc7-CZxhiLVAbMfAy5x884NEkEMPnaQTbvjbMo97f3oDe2t3Ox_C1k1IGUiPimhQuSVgUtvbCEA2wZobOqFdBQ9GOvU37_etP5XrTta59xv35i0Sf606_UxsXty9XJpmzo-vDVKmHkSOOE6T2U9vCjf47OahJLTprBc9c_FQ_KKgfIuoCilvZoHepbIPFMotPK9BELd6TtzhFdvFJ3blh_bQw55cJYIZr04Ho9-d2o0Pauk54Nh0XPxaehTWXDJOFLLsUZV_36LqZSE2oFDLZPRqoo_zZameaqzCmjGhpFfow=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/JUNaEchod2Z7YoGB8aehXGKlgKnfxT-DYAxkCKDmYhX2zNnD5WpbtfCbg0zqwQMyOwv1HWlOc1d3FcfE0fe9DPSSBg3fFvWdwVobiZTjx5j9QoWxfWuCzWOhTtLjvyB_oYvTV4muPqduToG6nyl0QsoRrkMB5zJsmdW4TrAyPBzt5DbWmIJ89aLIHe3ukPuzAmu3d11L39Hj1aRF8nZhFZJKvtz9RsiBUzEI4R3PtyJ8Ylk3ssfzy9wpgJS_M4z8MeBBqq0XtJ6OI8_BeVkesmSIphLUPOHFyjeo-DQEBqFaXDJE0zC25PHl9krIutI93XmrH4XNOeNEq0NeLELcTmWpOgruv-5Iq3vjV7zZbVHJXZVtgSIIIbanZmxkn-YO5Ler4HmlHteG_rO97e4Xvl7_41p59jE80F6QE2l4AoTEpP6lZFHaLW5V-UdO_w_C_l9J6jHKwVilUpIZ8kxU2ZEwSu8FdCano3otQedh7JHglNOUteyECXNjCLk6ffN0LbpU5CGDuKr3XoxbMzAVeROVjESe58tx5VQJjfZKaoAXpfDMrwdsnTVj-FAjtKFRVn29nu6UuOn-G6tiVmKitufnr4piNhXRvPLSYwm9-st5VE3xdxcDBzKuxOss64R-xKWl2euM_Ab3E5gwCB9P66aT1bz86FE=w1000-h1498-no',
@@ -67,7 +67,7 @@ const state = {
         {
             id: '02003',
             name: 'Худи Мопс',
-            price: 1490,
+            price: 2990,
             src: [
                 'https://lh3.googleusercontent.com/FsQEuQKvev-JSRvip_q1uKqJyD9JE6vE-LYqlurW-PvU5zxIWAp0b9byIAMnzAJ-KuOvAp2JXoLRmOSVK04voQ3OYnwsy6U_jdF0eqttnI2Dt1NQA8MX99Pq1a8PgT_7ALHXuTQlewNx7gdpYxjJRqqK6IbHQDEV_0mjD2LaG5pnw1UGvVhW0mRnWVprxI4BHTTfu4I4nXTHu5-ocleaHAW82pvWP8V5ZtRLCGTmDDTQ3grCCZmmGHTrL5TXh-vCBzDC5J1TI23NEinUPscu9Ncur7scRtXm5lnFdwrc3pqX67EYAP5kBBdIXMlN1-EwH34FB75cMNy7oTf0C9zm6WX3Q3VNI4rrbtxSGEsSjCmTlz34ockmkE7VV03wC2W7kMOsIV8dwQK6AUesGmSpZ4eqoE37FFZ_M6YYoT-4vvtXucrJU139M0mMeWG-LGAIIrfkimPypsOFQ90eF4r-BqiWT52d_LhTtauyYzLNCFXTSx6iIE2kW5Iwshb_9JRLvNPYdQGJZQ27gBFcHBnl0Ibc4zlZ2vDoGOyXWaGjn33L6lN0Pjte3disVw3T3KUMSnwfA43FDu4GUJhqQgLRlb5BNMXgPgnzDYWvkVOL5hId80mKdA599RX7dcPCO3nnDTZATIa-GGWgQ8emSVrnQD9MBbSO6tw=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/EnRDfn06rhzwgqBlxQf-gMZxSMVXbgfaL3ge_fOCnxhZofUh0u1EG9JluKm5ZGC_zPZt9IPsP_ccYBAWR_APztXgeK1JMbzTkDFdGsl7kUJKOCi8fQc5XW97GNEjX593Pkmx_yY3zPCltJX7MyLdqZd-Mz5_TExQilV6HNTYnCo8kKgIe_u-wV4DhRYmUPgXIOZEmNvaugJDLh87Bf2ZU-tJ4Wa1KPwoi1U7Kz_N2z4qTC5Rqp9Cc2Z-vVoRsYRAgld-hYEoxxB5oWWLxMsicWZHiffFv1pXLvICOmIy8Qy3Zn9gJAnTYXyTfo3GAdlex_mHK25hwTrBk4_L-976j00YfTSZcM318c0FG18BMryU339yB30TyOMCOPcQ5OuB14wFC1Ild1nwuyWr8u-qE4T6QIqUarNMJzXGWxEKGPcKI6a9QrzGmbVXuHDIVjTyCECWj2jxmdBjSHFcPoz8YLj340HKYjAkyH-H8xKyW6Iw5VQw8QNPQi9OYVMB9ThujX81N6ZdNiHvLLrnfSfPWlhHoAgWq2rA0p_aZLKQIXKkoi0lCRNLMUNrzlZKF6aQLtjktqPvtTNwR4X9bvhfo_U8eTcYUwheNGo8a4XJ0vr4V6gMC6eRtSRGKtRaURvYlo8KV9nNf07bSw1KTPE3qRimqk59cxY=w1000-h1498-no',
@@ -79,7 +79,7 @@ const state = {
         {
             id: '03001',
             name: 'Свитшот Мопс',
-            price: 1490,
+            price: 2490,
             src: [
                 'https://lh3.googleusercontent.com/CAYO9YeKyyltoBs-yUYXecBhoFBnd5UCBNHVrmsDoMOpgztEveTRUaWTEFXBhtjQDsA6vLnVhsEDhdrEQqaoCD7l5IO3To_NYafP-Z-lVSdjgtgTKSm8ALOe5QRQyk9MLFwIHry6FBLoNVLkB3R1R1gE3zWq_RrbhJVHVQaIDMQoOWle3wmyTHiSdoXPXXgQtT6r9PYRSLoMX2E3N1rui7j_f06e0VRItk7kTrsQZwzASqc0t_dNPb0b-XsivJm2B_qCvfh0yCRsBF7y9x6yrm9HQpPJMYYDEUic4NN6J89rxgy4TjQsEjfuZ6kZ43JNs8xCpkHvEsw7XuNnQPsTyXk9-kE-nkjceLLFSS5qrhbcuiIpeMcpla7ip4BQavV5mgGaDbsEfe1kiX5WSmCJnBvcq4rNF35G6fCju-MxDzj-ck2lBg-V2dsbELS9wWh9a41ZcV221t9gKEYPwyRqq9cUVFLtT2QN1NkO2-l8NlmktYQQ99wAv-aAE0wwkvQX-Zd0Yn1zDRg9E13PMEwo0bKrCNoMpaH-ZIEUjhkPzdBQ4vagAywUs0X7iSJdODBbJoNSXGnTde3dNQcypphD2OJLaPBeRuS0IMw7KjYMQwYq6GZVPjfGiHWBH6d2V4yQeWCfgl7iqP7MpljZA6rQ-jR5mIgW264=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/tZlyb-t-t7LarLzUyzPFgKoEHLNIZkXxxdENmkJHH2ar43nI4thmQno6_RgNPJ8ER9oU0wWRzRdHc2r9CnxofFFQvLS0SqW74fsboy3MS1dvbSPbrBN3Bcwj0uBcxEL6wCJRRdFF7Q1cp5TZvmoy0apM05snoCUHEhmnF9Hs-5mbLP2n0Ng7slkOlAFaLPOT009dTDvqT6wnfaYqER2lgGxXWoDkk73E6M6ianI5Yyz4mg9f_1VAOd5wx1IHY-HJ6hymYTF1FO1iI4zSnm0kUvYMatxoOrxhITyp5UoS1i6fHzwK51wR4i3RKGALOOwe9W_Ps94ItQLIyaUe2d35aQsSFooeguot03rKfLx50sz77TUbtRsIybBaVpfSDlaYzyv-KiHYSYxLhbia9ysC89P1BIUcfh0I065qa421wGU9RjYSHJTBChjnpxUWmvwwPzwX-WN2p-hw-r15M2PUP2aIhq7h0YXNjXK9YPSnhgdu0ybtgHAVAzYcYvwYjOE6XJDYzfxRADJdxOM6mzNqg1CkzkFefiDAZwAd5Q_fFPyCsmhdNxiTEa1Z0fCmLOHQ_ncyaIUSDtrk6DYeSNagwBVXQGObPJNZnxeTTsv-XSqaDYeVakQ_Bv9tp_3Mvmginx17QE8pVpXYeN8wJj3sfWifWD8XJOo=w1000-h1498-no',
@@ -90,7 +90,7 @@ const state = {
         {
             id: '03002',
             name: 'Свитшот',
-            price: 1490,
+            price: 2290,
             src: [
                 'https://lh3.googleusercontent.com/dqebxv_wr3vygh8OPc2a7u-RsYxxcI61D4NpAedwCO0EvBa8QRpI-vZ_GWom01rC_WvcRsO3mZt0xUOaSIRom5DyiQJQi2D05GAzO3jsmY3PwH0gKgN78bLTNY-WOAG86E3kCFl5jGaWRMYqsQk9fRLgmE5KBgmuPNfcYZ17NY6cgulzAANDfHr9wTUuRPt-aY5DNd2oykcyVbp3gvmf2mlY_2StyfWIkMHM527UjZepBkDzqCMt5ZWWxb3_xZTbtIWxeaH5AjKgGagfTVNTz3swt_7DaGzIiYTAwL5cGam9tuuLZu2ElupK6dI-5M1xvADxu2aACzd0f0wGePzwTanRgqGCJS1XD1u9RzUD_72vlGl9U_b3HXfqDIDC-4mFcoWMAwX9ywlLey51KiDSGq6FKAcO4Ap2tczFKsRKPqdAEe1CUP2hNoLTlaN6BqRyv1CMrSuze69KhcWTAOVuOZxEHHuHL2PUo9s83iHSNm9O9jWTyku6r355XGJWrDGXrhvRdNTCJM_ssrNiI9IiL3gtXrbBt14IVKSrikGB39JRtm2YC21RqDkOlMvEBtU9unvU7QevAp_X_yoKrTmU1_IdkCJpXvH_00pnN2gnM8URt5yJWo4-xtLiB6vYfm4rscyR2mti1IXXTiP4mXMLXrBIa0bAME0=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/arxKiHNEErFN5sZFSENPLf_hJdKEqEj-opiFAhaMc1wpxdAbDqcLHpe_IyUIoTID_owiwFt3qGVchvu6-ys5MMXuvOyFeZ12M27fJ69VTbcGn3IcxWTbvvLveZ4bGO1TJ079NhHHozCKjPsb1k539XZPUzZ8Tl1vm3hbCBrX_hYZrQlqE68vTTodV20JC3urU8LFnFs7xgKBr0-MEbMjsOtTRWzi03G7EJffFG4QiGQDn-lyVjUMZwRFWuwMf7TguOjQDgNXzMNxERIRMsH4ySdO9mg4uuLpajIqPQJMvLdVqCVfvNj5NzmKrz_tInK4yWZzd-001QrcsiLrIKN1rwcO91i4WAEE7tzGmt2S_begjZBjcbE-GlOIpoHX0CB2eWGnLrAIbulpXJQKyqcrwNmBg6RS7kLHuW8n_l5tFq5kfYsbWpAr0aHrGxwU6_OJCjeNeMBcU_tx7YG3YjIESm5_uHOTI7kgHR1B0SXIa9VWusyiKcCSI4vm03qz7kzel-FDSA5E5E6LkS_qpTvTaSG8bxQlHM6vfPw2zX8vdKX7eJojrxNin7nwT0T4eSZPDS-AvsSJ9rVjNLiG4wtEACOXQH1JGytYrt3z5A1XmCap6uLTg_70gpKGy_2Afz_52ceLZ4rdPqHrdQ-TW6LInPvD_cvoiaw=w1000-h1498-no',
@@ -101,7 +101,7 @@ const state = {
         {
             id: '03003',
             name: 'Свитшот Корги',
-            price: 1490,
+            price: 2490,
             src: [
                 'https://lh3.googleusercontent.com/vPlBT4ePzJO3U0PHXD6ahFFwkcpr9Jqf0DvJbY6Ev5TQZD-2UsEDQe2-eLA1bM_OeFB_3FLuyfGVt3vvrNCdGmEB48V7FA1Pk-yEzwaRG5FWscYIiPUtJ_V3hUbHviUm2NRnvLDbqMdH-rSWO7FsKkJim-c4OOVN1oF6FnAS6bAoOQJ80uBFNi4u7JdHf9gf9huhutWMbup-S0WPHwaAqtdBCEwP_BuJyOykqFXTPyAyl5-7tVaYao600-wtSGTu-ya6qwnC69hhC7g30PeY8BFRz_pha1g3DGmFayDeyLEOFMxj2xzfV8YhI1maZn8uJ4kgvAkCzblo2VjmZqtMYe30U41sntcmHST4u1GsBGDIFtRJihJabiwXlQ8c0uJZHz6s1Dz66FQXsFwnktKsXhDMAKNzXVzOW3n2w7UXDo8ZywASRGTmJlAEZSrFlKWlYovgzykpoisNVyXkDPh08PyqJKihgTomLjRkFHZvOJNvkR2AkbRk9bmRhCj4uaoiBg5L9HzHgjHTopeRhJLxXz9HnKpY6lmZMrHjQbDremzj-nlx2M2PztDc3qLJjgIOp7Meg5S65Kh6F167L8bamy-T1GNIxUtVEBbNHfzKRNuaAsc5rH9VmXwuE66ulZN7Nol_LddLBg8EzwGcBfO_uRjN65koHVo=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/hq7l6_9bdXIod2Q3oASm2lsCEwMsdTVuwEjCTpWP0bEfCF-G_OhJXCNyhDqI_7c-AHnD7JfBxvmOx2ExxQZgHfKmoiu_aTpB8iP1N4x25gX_tl-BwODX-O9k0T_4llre1MefSUONWOwFsZd2z6XbBVGYMz0kBV9oc2yvRu5Y4my2XvU6bmUvUv9LP6LclhOT4mpV2sJRhBWIPw7Fx57OQmy24jO3dB1aJ0XdI-L9UpUD0OJlIv3d9BXxbsmeZpGoa-MQPDwkENaNtos6OJlEKqwlwD8nom5qyzfq4f1pJRgvwh01m_Bk8ZZueWQ3V9qXWni_mjY1dMZcPX3qELWaS4badPh4pqvBy9MO_hc9NJ4abtHtyCTqp6d9xFSYUXhiK3byjty_zqBw-X1xIW06HHZpIbSNgZOUfjE1d_tjh3-nsSIgM7wvSA7aU2_dVn5zghLZIST1ISQUFG9yzpmFpj8ACggvs4BlloNaSxF0G-UP9G0URJC0xGHrNj4VEf6Sbg9-7HyhX3EDWYp7mWKz3U8suGmVBE-FaqCQGH4MzE9xAQeiXR8RQ8r8Q8iFs1TXRb3-ZiX3ND4Onu4IHerg7B1tCeXidN9INELvQRgxAZugdxZB4wLlnEFr1_uHw3CbNhuRPDak7T_UGpcxwMEkaz8uuWy5Yxc=w1000-h1498-no',
@@ -212,7 +212,7 @@ arrangeItems = () => {
     // });
 
     $(".description").find(".name").text(item.name);
-    $(".description").find(".price").text(item.price);
+    $(".description").find(".price").text(item.price + " руб");
 
     // const item = state.items.find(item => item.id === state.params.id);
     // item.src.map((src, index) => {

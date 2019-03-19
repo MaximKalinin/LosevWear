@@ -47,4 +47,11 @@ a:hover {
 .no-js {
   margin-top: 80px;
 }
+
+.footer .policies {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #a1a1a1;
+  font-size: 80%;
+}
 /*# sourceMappingURL=index.css.map */
