@@ -227,6 +227,13 @@ $(document).ready(() => {
             },
         },
     });
+
+    $(".cart").click(function() {
+        state.params.price = 0;
+        state.params.items = 0;
+        setCart();
+        setLinks();
+    });
 });
 
 

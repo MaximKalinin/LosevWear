@@ -28,6 +28,12 @@ createContent = () => {
     
     $(".menu-element").each(function() { $(this).addClass(randomColor()) });
     $(".feature").each(function() { $(this).addClass(randomColor()) });
+    $(".cart").click(function() {
+        state.params.price = 0;
+        state.params.items = 0;
+        setCart();
+        setLinks();
+    });
 }
 
 randomColor = () => {
