@@ -3,7 +3,6 @@ const state = {
         price: 0,
         items: 0,
     },
-    colors: ["yellow", "red", "purple", "orange"],
 };
 
 createContent = () => {
@@ -37,14 +36,12 @@ createContent = () => {
 }
 
 randomColor = () => {
-    switch (Math.floor((Math.random() * 4))) {
+    switch (Math.floor((Math.random() * 3))) {
         case 0:
             return "yellow";
         case 1:
             return "red";
         case 2:
-            return "orange";
-        case 3:
             return "purple";
         default:
             return "black";

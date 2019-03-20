@@ -48,10 +48,33 @@ a:hover {
   margin-top: 80px;
 }
 
+.footer {
+  background-color: #f1f1f1;
+}
+
 .footer .policies {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   color: #a1a1a1;
   font-size: 80%;
+  text-align: center;
+}
+
+.footer .policies:before {
+  content: '';
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer:before {
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=index.css.map */

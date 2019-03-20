@@ -26,7 +26,7 @@ getTShirts = () => {
     return [{
         name: 'Футболка Корги',
         id: '01001',
-        src: 'https://lh3.googleusercontent.com/dAXoNqw3vsDc248a0vR4XFgWSt4_-7NhS2jg9nqZQ1P8aZ_ergDebflIsTSQANDAGqgLmUrnb2qWAhUSU5RqznRAAdvtARWN3_ZqSS-rjILr7RpuQCjVKYxGRCHCUoiJw7e3iOam_rVuVEWpCEXyRAe4Gut4Qb50mHJob6vKbLPXB930ydUJ_XTsprWdv4GM0DWbf_P9N02sTMTspbS937T7xQ8wR49LG69Be4EF4s30Eji5swU3OfqkABiRjbtAstcRpPmVcqqhWBSEmVE-3IEEFANrmdgrwwJ2OkDT2yihtsCqZlfAmAqbSUbYbYtrj2sgVgCEDtk_qhqr3M39lr9laGPNOujgkY5uwdAEWcn4Wk8jIFWa_v3Rc-o1N7F-CcifxxvIZpPiFVOs3x13oiTyjb6w1c9x4qE8r-p75O-mwlAvIpQfUUlWYKN5X6JZKWokfb65TEdLPoYNTkvleS49qK8p2sM9gMdsyzIdpfyAVoiP1Ryi84vci9-T21lwvjtSpWbQpRMEmMUVsN2gBfQ2Gukezt1rsnPESHIO9oTnbZ_auXbMJ2Rfw2UWgZvaG2LHHb9j9Hq_jUGNuz7hzO6rq6CF4J2KcDTAS82kObv4deR93Veq9yqzMfePxEk1Di2Fu5NjoUMSPbJ-XN5bTq-qfeHZ4d0=w1000-h1498-no',
+        src: 'https://lh3.googleusercontent.com/Qso5qjK19m9GKzBUcwclZmqO4CH885UJy4lNfMMjqTJWrPY-QjrdNjbVyrOmZA0k3r_YrH45j-3v6taeH1i2IDclFe8Can2nmhIdP7MX0DmxNWcOYkiLNqwwUJSNT2RZAcBj_OhrVoXuRHXoesM4OGOOFaybdzb1kARV2eTaeFcsqp380Rh8goVJ59JA_beijVnUoPhrePb6yls3NZ7QgHrfyoHnLSc5iQO31AFTUBVjgywtyuJJIuNtHbbr0NFw_v8eXiHqixAVrJBSlVKwTPRGFYj46I0R930QVDRLFZutgwDb6yayzqDIU1C3AqMMmwA_HV7Yt1N0Ir9GMWwwBmbsvb_cRlGMsozjLp7Nwz01y5nIxIMmt7129IN5femy-7Kv-PMdBAPU1-jO3hiCXXSeEWVt1OoCKc3ERsqe-NOAnJyzv3pL_nXT1Y6Xs2Ufmw2eMMDUFMUbh-rQBk6lp9wvDAZCl5zATbzAs_xDQWCyl92yYKLhqcax6qN5Lm1-IKdw-lxvnuxQu8giGCJNdRo0hybAGXHFIIoDgFVGl3egdkxCEHD8nElby3nY-Jy5_LcQGoxl5j67EuWF3CHgSn0Dh5hTyPmWHVS4zWX8WnWFtmCMl16ruxteIWoDeKXgKXcGdhUcgGFi4LMzyLi1HmlWbGZeeNw=w1000-h1498-no',
         price: 1490,
     }, {
         name: 'Футболка Корги',
@@ -55,12 +55,12 @@ getHoodies = () => {
     }, {
         name: 'Худи Лосев',
         id: '02002',
-        src: 'https://lh3.googleusercontent.com/Zo5gtyYOzRFdgiv0sOIXSeXIiRxSIC-dGQQZuhlb2UZESY_SR2zBjZdFc7Xs6kt3wtNQvBmNikxsSXxT-3SuDte7X-rFZp2sBpIvxrB3Ks-iIswQKBjpde-aYpXSbE2d-Ly1OUvmcU7fGxln_pSQN_FZCbwYpVZYN1y5VvAQpArvGs4DR74Y0TQHpgjmcT-IisXxeSMz0t-i7f6HbstN22sxH-YTDFuNobX1SvZcQeK10FK362gIMnUmmeovWD0RLx5VBTU5kJOKj7NhsIKHFKRasJffXPHJrz7risrNYulkWtK4VikAI4XmsO1BC0hW-WrhJjFqZyLW0G0kiHZdOtvCkRvwd7kWAc33oI26xzSFivSBecQc7-CZxhiLVAbMfAy5x884NEkEMPnaQTbvjbMo97f3oDe2t3Ox_C1k1IGUiPimhQuSVgUtvbCEA2wZobOqFdBQ9GOvU37_etP5XrTta59xv35i0Sf606_UxsXty9XJpmzo-vDVKmHkSOOE6T2U9vCjf47OahJLTprBc9c_FQ_KKgfIuoCilvZoHepbIPFMotPK9BELd6TtzhFdvFJ3blh_bQw55cJYIZr04Ho9-d2o0Pauk54Nh0XPxaehTWXDJOFLLsUZV_36LqZSE2oFDLZPRqoo_zZameaqzCmjGhpFfow=w1000-h1498-no',
+        src: 'https://lh3.googleusercontent.com/JUNaEchod2Z7YoGB8aehXGKlgKnfxT-DYAxkCKDmYhX2zNnD5WpbtfCbg0zqwQMyOwv1HWlOc1d3FcfE0fe9DPSSBg3fFvWdwVobiZTjx5j9QoWxfWuCzWOhTtLjvyB_oYvTV4muPqduToG6nyl0QsoRrkMB5zJsmdW4TrAyPBzt5DbWmIJ89aLIHe3ukPuzAmu3d11L39Hj1aRF8nZhFZJKvtz9RsiBUzEI4R3PtyJ8Ylk3ssfzy9wpgJS_M4z8MeBBqq0XtJ6OI8_BeVkesmSIphLUPOHFyjeo-DQEBqFaXDJE0zC25PHl9krIutI93XmrH4XNOeNEq0NeLELcTmWpOgruv-5Iq3vjV7zZbVHJXZVtgSIIIbanZmxkn-YO5Ler4HmlHteG_rO97e4Xvl7_41p59jE80F6QE2l4AoTEpP6lZFHaLW5V-UdO_w_C_l9J6jHKwVilUpIZ8kxU2ZEwSu8FdCano3otQedh7JHglNOUteyECXNjCLk6ffN0LbpU5CGDuKr3XoxbMzAVeROVjESe58tx5VQJjfZKaoAXpfDMrwdsnTVj-FAjtKFRVn29nu6UuOn-G6tiVmKitufnr4piNhXRvPLSYwm9-st5VE3xdxcDBzKuxOss64R-xKWl2euM_Ab3E5gwCB9P66aT1bz86FE=w1000-h1498-no',
         price: 2690,
     }, {
         name: 'Худи Мопс',
         id: '02003',
-        src: 'https://lh3.googleusercontent.com/FsQEuQKvev-JSRvip_q1uKqJyD9JE6vE-LYqlurW-PvU5zxIWAp0b9byIAMnzAJ-KuOvAp2JXoLRmOSVK04voQ3OYnwsy6U_jdF0eqttnI2Dt1NQA8MX99Pq1a8PgT_7ALHXuTQlewNx7gdpYxjJRqqK6IbHQDEV_0mjD2LaG5pnw1UGvVhW0mRnWVprxI4BHTTfu4I4nXTHu5-ocleaHAW82pvWP8V5ZtRLCGTmDDTQ3grCCZmmGHTrL5TXh-vCBzDC5J1TI23NEinUPscu9Ncur7scRtXm5lnFdwrc3pqX67EYAP5kBBdIXMlN1-EwH34FB75cMNy7oTf0C9zm6WX3Q3VNI4rrbtxSGEsSjCmTlz34ockmkE7VV03wC2W7kMOsIV8dwQK6AUesGmSpZ4eqoE37FFZ_M6YYoT-4vvtXucrJU139M0mMeWG-LGAIIrfkimPypsOFQ90eF4r-BqiWT52d_LhTtauyYzLNCFXTSx6iIE2kW5Iwshb_9JRLvNPYdQGJZQ27gBFcHBnl0Ibc4zlZ2vDoGOyXWaGjn33L6lN0Pjte3disVw3T3KUMSnwfA43FDu4GUJhqQgLRlb5BNMXgPgnzDYWvkVOL5hId80mKdA599RX7dcPCO3nnDTZATIa-GGWgQ8emSVrnQD9MBbSO6tw=w1000-h1498-no',
+        src: 'https://lh3.googleusercontent.com/sIzBGiHJcOlBoiUrqcLhSLl3Q83K97mk3KO5MMwkz-1DutaJJdXvGtllDd1dN9b8nbbW_nknP_0_7X_mfyPpCSaNgjClXTGxQbBNnO3B7GaGvZ2D8ojg5Cpl6Cj7dR-Bw_hmSXyt_xaZgZMc5hMnZEbe3kkHgKERXTuUU_wFmf6Kv6_7miS6zPTYsIZypOOIdMqqyX_-7MnArKIc67znljqhwrS3PEKxAjNS-503j29jKdtv6tvnH9lLCN9rWOJmJOdw9JoQio9L9fgx88JIF3GARrka_H_y1Er-c_ePBODy97JmGZfgHb6E8yYfOeWum6MZQ6qlmD0lnOqWG51Quon5OqcpvgxmJRP3b4KmG5xN6b6nM2vFybrzg6pOZYvpwXvc89qyktWGw2Bio3zHPfwHD3qD_LVFlBIS9_BAmzzNLuOrHMWkkDVgOKDdvQ3ws9tFp8zAN9MDEXZdHrQgFQKPhnw8982Y1OzNsubSiP54kmlm2EOHiR5VezF7lUL-5ArZzpu1EDvpfo7-aMr_Q5kzR6qEZxY8ffs2xBEBi9tvnA9C2yu1pJqtRreIvu580Mk0Tr6zEFGp6H5UurNpNXx3mQTsu53PWgL_vqovnNsakuqPgKQ9y8-tGsXohZ7R_kh4tOTbrql4vZzLL8EBoMmEdiws-Do=w1000-h1498-no',
         price: 2990,
     },];
 }
@@ -69,7 +69,7 @@ getSweatshirts = () => {
     return [{
         name: 'Свитшот Мопс',
         id: '03001',
-        src: 'https://lh3.googleusercontent.com/CAYO9YeKyyltoBs-yUYXecBhoFBnd5UCBNHVrmsDoMOpgztEveTRUaWTEFXBhtjQDsA6vLnVhsEDhdrEQqaoCD7l5IO3To_NYafP-Z-lVSdjgtgTKSm8ALOe5QRQyk9MLFwIHry6FBLoNVLkB3R1R1gE3zWq_RrbhJVHVQaIDMQoOWle3wmyTHiSdoXPXXgQtT6r9PYRSLoMX2E3N1rui7j_f06e0VRItk7kTrsQZwzASqc0t_dNPb0b-XsivJm2B_qCvfh0yCRsBF7y9x6yrm9HQpPJMYYDEUic4NN6J89rxgy4TjQsEjfuZ6kZ43JNs8xCpkHvEsw7XuNnQPsTyXk9-kE-nkjceLLFSS5qrhbcuiIpeMcpla7ip4BQavV5mgGaDbsEfe1kiX5WSmCJnBvcq4rNF35G6fCju-MxDzj-ck2lBg-V2dsbELS9wWh9a41ZcV221t9gKEYPwyRqq9cUVFLtT2QN1NkO2-l8NlmktYQQ99wAv-aAE0wwkvQX-Zd0Yn1zDRg9E13PMEwo0bKrCNoMpaH-ZIEUjhkPzdBQ4vagAywUs0X7iSJdODBbJoNSXGnTde3dNQcypphD2OJLaPBeRuS0IMw7KjYMQwYq6GZVPjfGiHWBH6d2V4yQeWCfgl7iqP7MpljZA6rQ-jR5mIgW264=w1000-h1498-no',
+        src: 'https://lh3.googleusercontent.com/tZlyb-t-t7LarLzUyzPFgKoEHLNIZkXxxdENmkJHH2ar43nI4thmQno6_RgNPJ8ER9oU0wWRzRdHc2r9CnxofFFQvLS0SqW74fsboy3MS1dvbSPbrBN3Bcwj0uBcxEL6wCJRRdFF7Q1cp5TZvmoy0apM05snoCUHEhmnF9Hs-5mbLP2n0Ng7slkOlAFaLPOT009dTDvqT6wnfaYqER2lgGxXWoDkk73E6M6ianI5Yyz4mg9f_1VAOd5wx1IHY-HJ6hymYTF1FO1iI4zSnm0kUvYMatxoOrxhITyp5UoS1i6fHzwK51wR4i3RKGALOOwe9W_Ps94ItQLIyaUe2d35aQsSFooeguot03rKfLx50sz77TUbtRsIybBaVpfSDlaYzyv-KiHYSYxLhbia9ysC89P1BIUcfh0I065qa421wGU9RjYSHJTBChjnpxUWmvwwPzwX-WN2p-hw-r15M2PUP2aIhq7h0YXNjXK9YPSnhgdu0ybtgHAVAzYcYvwYjOE6XJDYzfxRADJdxOM6mzNqg1CkzkFefiDAZwAd5Q_fFPyCsmhdNxiTEa1Z0fCmLOHQ_ncyaIUSDtrk6DYeSNagwBVXQGObPJNZnxeTTsv-XSqaDYeVakQ_Bv9tp_3Mvmginx17QE8pVpXYeN8wJj3sfWifWD8XJOo=w1000-h1498-no',
         price: 2490,
     }, {
         name: 'Свитшот Корги',
@@ -188,14 +188,12 @@ arrangeItems = () => {
 }
 
 randomColor = () => {
-    switch (Math.floor((Math.random() * 4))) {
+    switch (Math.floor((Math.random() * 3))) {
         case 0:
             return "yellow";
         case 1:
             return "red";
         case 2:
-            return "orange";
-        case 3:
             return "purple";
         default:
             return "black";

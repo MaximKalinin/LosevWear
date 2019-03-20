@@ -3,14 +3,26 @@
     margin-bottom: 50px
     .col-sm
         margin-bottom: 30px
-        img
-            width: 100%
-    &:after
-        content: ''
-        height: 4px
-        width: 100%
-        background-color: black
-        display: block
+    .gallery
+        display: flex
+        .preview
+            display: flex
+            flex-direction: column
+            padding-right: 10px
+            width: 15%
+            img
+                width: 100%
+                display: block
+                margin-bottom: 10px
+                box-sizing: border-box
+                border: 2px solid transparent
+                &.active
+                    border-color: black
+        .image
+            display: inline-block
+            width: 85%
+            img
+                width: 100%
  
 .container.hidden
     display: none

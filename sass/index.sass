@@ -21,6 +21,7 @@ h2
     text-align: center
 .row
     margin-bottom: 0 !important
+.lookbook
 a
     display: block
     color: inherit
@@ -30,8 +31,25 @@ a
 .no-js
     margin-top: 80px
 .footer
+    background-color: #f1f1f1
     .policies
-        margin-top: 50px
-        margin-bottom: 20px
+        padding-top: 40px
+        padding-bottom: 20px
         color: #a1a1a1
         font-size: 80%
+        text-align: center
+        &:before
+            content: ''
+            height: 1px
+            width: 100%
+            background-color: rgba(0,0,0,0.2)
+            display: block
+            margin-bottom: 20px
+    &:before
+        content: ''
+        height: 4px
+        width: 100%
+        background-color: black
+        display: block
+        margin-bottom: 30px
+    
