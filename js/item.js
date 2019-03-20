@@ -289,6 +289,13 @@ $(document).ready(() => {
         state.params.price += state.items.find(elem => elem.id === state.params.id).price;
         state.params.items += 1;
 
+        if (!$(".popupcart").hasClass("active")) {
+            $(".popupcart").addClass("active");
+            setTimeout(() => {
+                $(".popupcart").removeClass("active");
+            }, 5000);
+        }
+
         setCart();
         setLinks();
     });

@@ -39,11 +39,41 @@
     display: flex
     align-items: center
     justify-content: flex-end
+    position: relative
+    .popupcart
+        opacity: 0
+        background: rgba(0, 0, 0, 0.5)
+        position: absolute
+        top: 3em
+        padding: 5px 15px
+        color: white
+        text-align: left
+        // width: 250px
+        &:before
+            content: ''
+            position: absolute
+            top: -38px
+            right: 20px
+            border: 13px solid transparent
+            border-bottom: 25px solid rgba(0, 0, 0, 0.5)
+    .popupcart.active
+        // opacity: 1
+        animation: show-popupcart 5s 
 .menu-item.active
     font-weight: 700
 .menu-button
     padding-left: 40px
     display: none
+
+@keyframes show-popupcart
+    0%
+        opacity: 0
+    20%
+        opacity: 1
+    80%
+        opacity: 1
+    100%
+        opacity: 0
 
 
 
