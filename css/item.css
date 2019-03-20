@@ -32,6 +32,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border: 2px solid transparent;
+  -webkit-transition: border-color .2s ease-in;
+  transition: border-color .2s ease-in;
 }
 
 .content .gallery .preview img.active {
@@ -125,7 +127,7 @@
   color: white;
 }
 
-.description .info div {
+.description .info a {
   text-align: center;
   color: #a1a1a1;
 }

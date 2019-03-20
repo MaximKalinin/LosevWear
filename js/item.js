@@ -42,6 +42,26 @@ const state = {
             ],
         },
         {
+            id: '01005',
+            name: 'Футболка Любовь в моде',
+            price: 990,
+            src: [
+                'images/tshirts/love/0.jpg',
+                'images/tshirts/love/1.jpg',
+                'images/tshirts/love/2.jpg',
+                'images/tshirts/love/3.jpg',
+            ],
+        }, {
+            id: '01006',
+            name: 'Футболка Смысл',
+            price: 990,
+            src: [
+                'images/tshirts/smysl/1.jpg',
+                'images/tshirts/smysl/2.jpg',
+                'images/tshirts/smysl/3.jpg',
+            ],
+        },
+        {
             id: '02001',
             name: 'Худи Корги',
             price: 2990,
