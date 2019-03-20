@@ -1,6 +1,26 @@
 .long-text
     margin-top: 130px
     margin-bottom: 50px
+    .sizes.active
+        display: table
+    .sizes-switcher
+        width: 49%
+        border: 4px solid transparent
+        display: inline-block
+        text-align: center
+        padding: 10px 
+        margin-bottom: 10px
+        cursor: pointer
+    .sizes-switcher.active
+        border-color: red
+    .sizes
+        display: none
+        margin: auto
+        td
+            border: 1px solid black
+            text-align: center
+            padding: 5px 15px
+            font-weight: 700
     .bold
         font-weight: 700
         margin-top: 20px

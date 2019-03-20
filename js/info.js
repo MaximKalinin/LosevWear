@@ -23,6 +23,17 @@ createContent = () => {
             $(".menu-button").find("img").attr("src", "images/close.svg");
         }
     });
+
+    $(".sizes-switcher").click(function() {
+        $(".sizes-switcher").removeClass("active");
+        $(".sizes").removeClass("active");
+        $(this).addClass("active");
+        if ($(this).hasClass("t-shirts")) {
+            $(".sizes.t-shirts").addClass("active");
+        } else {
+            $(".sizes.hoodies").addClass("active");
+        }
+    });
 }
 
 getBuyUrl = (type) => {

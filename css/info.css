@@ -3,6 +3,36 @@
   margin-bottom: 50px;
 }
 
+.long-text .sizes.active {
+  display: table;
+}
+
+.long-text .sizes-switcher {
+  width: 49%;
+  border: 4px solid transparent;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.long-text .sizes-switcher.active {
+  border-color: red;
+}
+
+.long-text .sizes {
+  display: none;
+  margin: auto;
+}
+
+.long-text .sizes td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px 15px;
+  font-weight: 700;
+}
+
 .long-text .bold {
   font-weight: 700;
   margin-top: 20px;
