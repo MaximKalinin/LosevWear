@@ -160,6 +160,8 @@ setLinks = () => {
     $(".home").each(function() {
         $(this).attr("href", "index.html" + getHomeUrl());
     });
+
+    $(".info").attr("href", "info.html" + getHomeUrl());
 }
 
 getBuyUrl = (type) => {

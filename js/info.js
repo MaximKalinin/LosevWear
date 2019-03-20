@@ -23,28 +23,6 @@ createContent = () => {
             $(".menu-button").find("img").attr("src", "images/close.svg");
         }
     });
-    
-    $(".menu-element").each(function() { $(this).addClass(randomColor()) });
-    $(".feature").each(function() { $(this).addClass(randomColor()) });
-    $(".cart").click(function() {
-        state.params.price = 0;
-        state.params.items = 0;
-        setCart();
-        setLinks();
-    });
-}
-
-randomColor = () => {
-    switch (Math.floor((Math.random() * 3))) {
-        case 0:
-            return "yellow";
-        case 1:
-            return "red";
-        case 2:
-            return "purple";
-        default:
-            return "black";
-    }
 }
 
 getBuyUrl = (type) => {
@@ -70,6 +48,7 @@ setParams = (query) => {
 }
 
 setCart = () => {
+    console.log("hello");
     $(".item-count").text(state.params.items);
     $(".total-price").text(state.params.price);
 }

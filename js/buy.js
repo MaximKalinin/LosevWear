@@ -139,6 +139,8 @@ setLinks = () => {
     $(".home").each(function() {
         $(this).attr("href", $(this).attr("href") + getHomeUrl());
     });
+
+    $(".info").attr("href", "info.html" + getHomeUrl());
 }
 
 getBuyUrl = (type) => {
