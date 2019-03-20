@@ -10,6 +10,7 @@ const state = {
                 'https://lh3.googleusercontent.com/gFU9hfIXLl6AGcZ8P0ecX2KY0ZMZlYLOFqNvNbu8-w4wcoraaJPtNprOBO_qKNhXuz5TwUDtSLul0hUAe5167D9VNUv9CAf7HA0dpjb2jEiCytNe3IpOqtvnXYwa4ZuQXonw1uLLzi8EfOD1uuE7miht-MLacem_WFLwiaK1PNyYhZ5Ym_ClnO0J3DZbGTWd9nhCMBDyltXcyftyDLHHYFRL4Ozu1VE_O49IuYYO0RGQqlfue6uedv6sFFqR2lWJXceEfnQIZMD8OcrJglqAUanNIvQUOrp_imw2mGW_ojyqCeH7asO9E7yZyG_BIrq1r2aEeYGH5pTgH1yeXaOGM5503O_7HXXmqWk3id_aHSIV6h6w9_F3AHnhou4scob1UrfTSYC2Hlkkp2HCXOzZC6aaI1hMa1Gy4vuO_8hlfzoiIEvyr8_6i4hM9aXU_602Vq8Cwvde4qaUHkzsbO9xVWGDi3px3j-kYKUTUAmjff-mD_YeP7lHeJI7Yb2ROXf4LU8jqcfy5QdYai3lbowgfA1tIuTItvMcQwvLcFF31xWioRTGf46rqvlVpjuZ4IXT1WyoCL2g14EqUp3F-AU-TIzZX0J0R8eUSuTXQU5XtXAhIiFEpNoqlIwRCQyGNskRo04O1xjKLsSMDwOWxGKVrjyugpiA1u8=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/UHq_I0mLg1azJ-ncUUuFqyl3uFqrNn6px2aQAX1Y6UhwbpWdcWYhu9oc5Gu8IFXrucGr7x83CefY91rVSTRbPSsAqwPGx0h-LQuF-Y-hfnCQ4rIThEO2JQjbPczPeMOlIXwA-Yvyy_2RZ9O8OTVDqj7II10gl-1K5FxHKzPxhhkTxmnDY-9xHlRnYPCeT43B_jVrcOZ5WoO8-zemqdxSjs89qho2CgtwkO_wrYqFz7oTrxDqA499pOxzjIs3lUgUBCZRWdoLxVaInBCqgoTbl_xkD5Ym2jO4Tasi258ueCaPDAfmkjPoC7kfc6ZT5SacYfPns1mG5FpdNszCa-4nBb1t1fwWKkQJLxGn4EI9gyQWBfpKD-fNPZRGX_z0NDU2kBG6U7tu8ei98axtsQ1Gm5SjiN4I1I1VwMIlT1u9ydVtWvBqpGFs6BQe4x_yinnU7iR54opDz_6Dp5PEhnW_UmClaRNaiO1PyDNXkurs_8kIBLG3XGqFsW69G8_cBFKd6Qsrdtq-dhcTgYsjcn6A06JnsOf9uJy23dWzq9CnBtPhbNzW9GfpPa8VyLa86-Z9OUexb5XtqUxOrSUm9NQObVwQDF9cj7ZBjmJtHYn6Q8jYaQVZaHqk3vH8LdSAdPjnNfbVS2eJDd6PQt_yYniKviviAURSzUQ=w1000-h1498-no',
             ],
+            description: 'Футболка "КОРГИ"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: 100% хлопок',
         },
         {
             id: '01002',
@@ -20,6 +21,7 @@ const state = {
                 'https://lh3.googleusercontent.com/v2cPyS9I-zIQQr2woGYjUtPZsVl-TMwSDXEtPPqdOpJ_sOPqSkT0FV2wFjWQy66bEXtdLpETUP1EbG2RZj9j2P_FA7JKt_SIHc0OdIHu1bo9DC84exFxEpc-TpNOwg819dhB2ETsAOM-CMxjkWATnexFQQ3yZI6RrPBkmN45psjkSD-15Kr6ovkUI5bVKj5gbvW7J_BSXs4wvJ3zw22P3rNo6VGRa52OrCfbfLUdg3IppBKV8mZhzv9S6DEpVSGUjsjgF2VJq7k_hso-9bsAKm7MJkcOptW5NbLsgPWGH_xT55wULGVpGYJP_FX8ZS1s4PDElg1W8DnFIxKQXwg7028XxrPg3_Hcsvv2gH9GGncNxui7gO6eWoSar44lQqYg4hTbuauEucQ5TEAuwxKSWVebL0vDDwEn-RzvhKDIznJgU3YZUinurvY4629BizWcEXrDr8AMqcoDglGN3umFLG49AS0tSWi_gUdmh1ac5qIKZO-bsj5SBJqgP0mAUQl3-ISHIAuIBCYxn16iiiIThiUmo5sgaDzSxryKI_95kwdyN6h3EdehAowPlEL2bVfk0qrhu3jT25kDJbzD7o8RUltpY8xDn0Eh-r1XYIozHU4gooqfCKElcpPaQx1hPobCrCFbwkr5_K38zjLV1C2yd_rz-7xPJBQ=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/KKKyXxwZAfr4oDmg0W-aUnONmIVgV9qQ0eJR4XVSmU30ic-Jgm3xyFCjLH2mNUheknh79AXEPWqcbHWP7_1V3qFvGdSN1NW4GE4pxkbqj0B1757xHdniL-TSGFhFI1Khfa6UfxZxSUHmEyemPz4bpT20H5mNF6C1jRR6r7arGRThgQ6eGoU0zbWLD00VoFkNxJFm07fdjS2NymkHsUihJ5W6fux1rBSBxcF4GOxVr1-9ql6qGDRZf7kMPFBPd7p_cfhHObK1pLZrJTp7XrZbJv4n5TPR_5mdkItBuA-w8tremxjCSkdMFLl57jYB1mPEdboLYSkrCEiLCCCGVMteGk3cGVo-27A9YfzEET3AZVGFP7g1DDOq9Fx-D3HWb8H_QZ6MTxH6lE1p4Lc3FJIFyIR-3mM-iuvdmrnG6ZQ2lXNInPIz-kPKdnJ8LwWRtK5lUEsSb9Ko9QGN91Eu-sQmmQORj0R5z14Eaml3JTI5nq6aGj51iuEmhDjYfiemW_VkypDjH4Pk7lcwbYPVJMreCo59nQd-ZRes9X7dj5YQzeqgg3ybxguJOzFwOmnCx-yjYkptRZb6fKbtOICr0_aPd60iJXRMwtiriq9kbtWtLirsWgSp851Xv0b8XQM1giK7Z7eJ2g_OiJxxAQQa-FB77TrA-hWubvg=w1000-h1498-no',
             ],
+            description: 'Футболка "Корги"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 100%',
         },
         {
             id: '01003',
@@ -30,6 +32,7 @@ const state = {
                 'https://lh3.googleusercontent.com/ltlU3QZD-Y-vZbMpJF70_ab5cBtIZuMg5NsPjcGSBC4zlpwpskPb-XzR6c1gYz8KJSYFY3Lv8GTNlgAz2TCrXv9mNNorGm6hQ21GnlNYuF5QbKCMhQ8POPvh2AiAzGTFtEpK4dUJmL0xTYYgObhFpTs5AIa3LSmwqc-9Zk0M2NZVClVCiwfawdyvpH_o8HG78AlUeMs8Kfp_8Ij5jps6mOW20Uw6LjWy2YrPmtJE-18N_khV_QFvTZAm52CC0QpOaBvA6S-m0J_YhQQJLOC8PZoVNjftlgteIfGvqeH48u4OgEBLl7ZnuOwWabIN_wCBlng3jFc0XFg0pphB3hhMsiIZNof-nEYOJVsnIi3thJCTwtxJCPWB39VXpNe7utxx7KQPtqdN5Iwp1z4h8GA272PSOtjzko14sZGFnGmOdLyxEG43ivROBGpofuJBSCsXPja3GSnXvYX-dlCbDK7fPFSn19GOuxeKfyu2QNAEgC9fzVrS-QyDHB1TnZOZFEDpwxz5TNdirMg8biOAzCHjXlw4QJKZR65ngVvP_dwj9b2AjNSwzLb4PLBHhT3rfUp23I0goM1A8Fbv_IZJRqUpMAmRNgBOvc88GNuGWtk-pSQIbgKbX4hMzouSwd8qyjZodLfny9urBWst9V5ubunLi5sfhXSzZbU=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/qARjllcMxlF0RCnq9gnfcnn7GjapW4vjepRapeC8uwzORTEf5DMy_sCT7WL5S3CdTCW5pH2hlu8fRg8RyVLRrgSxXgnYH-pqxdstlFfPcFhG_QbSPpzs-d7y79i8oWcsZ6AHyIw_Xo3p557iwQBhGcZO8apsiakqrKLweU1dPeZ2CdDpH_M114_uo6fxHYmre1gYHIgo7kPaMxr86yexuRVBMUE3TLDnvj29gR8-sTpKkPBJMJH05JCbGk6NwuI-NCOjVkxTX6AYPRZge5f5N_R0Qw6FbKg5xMritvmNJqFuMcYAiJVmJOJaqBz54-xXFR19wdcWHuChmXm3KmF1Mt0hHpFV5SWRnYNLKjQ2U3WkDU88odbMbNbZZnPIApdUG-l89BF2OSb9WPxdWgUNcVM2BvfrgTlqjtD2-sz-ptj24IRf06k8bFfB1yGB-9shINQG0sp02Hs9kb-45UfNVqcjaYp5j5pkr8yGpPikKRz7E4_mjS5t-vqa6Uf5BPo41G58OB2ShF1NaNBsMw_KBXfJpJ9qwdaJ1aQrNYsqeul9yJzZGWMjveFU-AhA-dyyIe_4qseKqUfTv76cXfjyk_GMNyZshqTQx51LJQdHJ6E_9rYV0p3yMCYxPq57L8WaHSRt8JEzSgdC8rXBJE1Kd04XBnjLDgM=w1000-h1498-no',
             ],
+            description: 'Футболка "Мопс"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 100%',
         },
         {
             id: '01004',
@@ -40,6 +43,7 @@ const state = {
                 'https://lh3.googleusercontent.com/Gw96PuMUHL0o513QH62SBF5SQGrsXmtL6q0nYAytYoRfYkdHeMop9Mt6ikfxK84GjpSTHHCzv-xpj4F-7aubs5FJtW99pwy_Cmns0fyEnFqfGzr_oKwrevLDnrGw1r-l7cJK6jTNvrT4xE_Q0UbO7B60ULkqo5B7No_Lylhl2VL74fvkPWASK-Qc9UOUI_7DZQr2ncstfQjjZU1BoOLcFhHnyZvIY55mqMlDx7-3R4DFN1C-n_bzvqLfP9Rd29GjhgiDCvFY6rlfCmxGplJIoXj6Io_25_twuohRg33gMJUt8mnnW0OMMh3DC9gSM4pd2nQ2N2LBfLb5EIneo3PTWGsmXyC2tpLZCb9DItYZ18iksYwrpYfNocYzQs86ZO5GAWydusbJR8OCfBHI69sLlanMfQZ7v7c536Ddk-9s_MdVQs7fT_w8IDc_Z-CDRTKoCltNGIGWn1FDfeZO-uet051TnQHRK_LWA8BzGNDT42sPovvyg1fB3nEcDUuCSjKGehlHP3XyAey2495QdGzZFFs8ed8cBQk0tmYUfQFRFyvub4fo6_tzXK9n7zafHm_BIEHAGWvNasBucbDZwJH8sBYVwbCaWLI171EqSlDMQNOo8GoZzlcmEORMe6HiXkoru3vfroU_9l0KjlXH69iMpUtf_5b9s-w=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/-7ZbkzaC35HpYloDCQDXdnuU9XJfi4XdiItxHzeo7kREUBxu6FuWFX5vWP0phdrrVQWMLdrPkobRzjDxfLknUTOBaUG7sDDjMU-PhSK1JknDPoCxCVBAX3qruH1aD8VGjmNohyxDx9Gz0BZxTynwYoiEHJUF4QKLOgorUAVgbl5lg7e0wI0UmsoOxx9QihtktwDaU9QPfur0mpFYedbQa33Lgsqpgz1KiUnTJnoxZt8oDmp92B70OCkDjj-Ko4Ny9Iab764KK0rEMx1OcI0Ybafh1BNLEVVpIScmHwsLd3k1Kq3RYpemRzAa-tZ-nahY_rORMYnQ5KeM2ussIuIp6ZkfYCu8wvybPLK7w4J2_3Efz-EZQy3G14QXanaJo8iPaMFYzNUnUDb_OkMIjlFQx2tXaQvB_rqxvDZnX_1vdRnlrSuPDikwinrUxmYcsKNPpLNGB_XcOVfx-omgAbCVVZwu2dvmu6_buDyYXqL4Paw9acpDcLMoJabdT8HOIkQNUctmrkM2wUVREknAcA7ZKkwMuOxPvgS4ycNXiowSdKSzXYRauIhz08DfI7dRsHV29RqGKrjIk5ftMy8bqjcJJC0T3eE4YdtytMkDoUsjW_t-ka04Kt0gs4-DSO-xJntp3fcGgbRD26uW9ZCgpiKhbgemdR79gjM=w1000-h1498-no',
             ],
+            description: 'Футболка "Счастье внутри"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: 100% хлопок<br>Принт: Шелкография',
         },
         {
             id: '01005',
@@ -51,6 +55,7 @@ const state = {
                 'images/tshirts/love/2.jpg',
                 'images/tshirts/love/3.jpg',
             ],
+            description: 'Футболка "Любовь в моде" сделана вместе с блогером Лешей Суворовым.<br><br>Состав: хлопок 100%<br>Принт: Шелкография',
         }, {
             id: '01006',
             name: 'Футболка Смысл',
@@ -60,6 +65,7 @@ const state = {
                 'images/tshirts/smysl/2.jpg',
                 'images/tshirts/smysl/3.jpg',
             ],
+            description: 'В футболе "Смысл" зашифровано послание, которое ты никогда не поймешь.<br><br>Состав: хлопок 100%<br>Принт: Шелкография',
         },
         {
             id: '02001',
@@ -72,6 +78,7 @@ const state = {
                 'https://lh3.googleusercontent.com/F_rnwgYrrQa3JCmJ4o6ZMOQ--uiZGZVoFSPfSFcFVTRmT9W1RLf3VFBGahKzDHDPdg8af54xgEtYGfyNvDp5fWjsm3puOdUzj4FvHvb3sCX2hHw_cxBq1YJRwU15CYIA_dxOQT4u7yD7_CjPU173nVbSHwe2qzY-qaQ_sF0_d8x8UkaN9tNX7E1EkCrkmxpfDXnF6jMcU1Hhegt6MwwDf0s6kj-wfHD8EGInsTRnYcVoNf0jvz4suqa5Z7qT94Epdf1vzGGFRpQWBBnbQZbTfj4M8dbUk515BNPqDalJWuQvqLisDqB0IpJ469kpa5DhczXMgVoOLlZ1yRwBkK2h7qL4eynhlqfFybMu5CfcSlxWiu93DOWIvMRsALpPwkbTHECPOlrg1ICiA98SVLWWJTBKS703E4KwcXQ1QnR84U8OyOPRnWRLBKX0egW6YyhQet1FG-kHHgfkdZVYPDDGbsNN8Ky0Wp61yzcmqhcUe_YIrxOcmgYAYQ40be6pUaatAVjBBVuiHztoZuCGmJ9mDO6L3XL5VRVxBbrHBp5UxtkUdHq8jG3rssy_sy9dIvgNPsXDmxMM2gXnPrQaJAnG-rqwXNvip6vp-YC25cxygYoXWZDUWsRblrE3YeusD_Wg32yJp4w0DTQo8Fks6B0i7J6WMXWZ-k8=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/j9IvlgLJXTUJyTpRDLhUiYNqIk0V9ji97FBv217MT5ybQKO_C7mfd9iv3-jtsW0wFTzqclvdV0S3R3d_ixo89J8zLkRsOZgikAA3WRT1CgbuKAb03rsdntEo4y5zSjgYWy5MhUztKpSZDWryurDu-iDt7cZeer_PenqBYBlxQ_Hatv-iiAzqsYcLKILCLKxLRKnjLU_RiY4o8L_R4fSdUGFCsyDBQ5QnCGZHphujbnwBw3ys4kaEFy4_FlY4BBQOUpJjq9qTc_ftYEfCf5rXoQQag7DIkMimBYCR9bKye8b6uZ9MVOZcErGoqdBfSsXHpLLKIR83X2AV-sCNAoepZHoFq6h3mFzl91dLRsWpI_eF6no79MlE9kgjMtjc8K3PmhWrJEP42FCADQijXJNZhFyrE86vWQzeJDMkWRGdXgX3RzEzCh2Lzs43OITvZyn_PehW_zn-EJs9z3dIPRJq6LHx8IdtuN2MpcQZv4_iV_BddJjIrIFq2DQ31l87NBnVRagqx6Rd25M3ojRrg_EfqriR4qmNtQYq2R10RK-Y8ZaBRj9S4oTjvDBjqwVNvO9v6WkXlBRIh_jVbTnzS6cr9NMEBIqVyCWiaET26Vw0eJu9pKTnjhRdDRZRC_qKcT-5jCaooBwFZ9U44foekhptne9iKRYgfT8=w1000-h1498-no',
             ],
+            description: 'Худи оверсайз "Корги"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
         {
             id: '02002',
@@ -83,6 +90,7 @@ const state = {
                 'https://lh3.googleusercontent.com/UIhSFDn_4XOHES7GrNdi4PcjNElzFLwWYLaEEyxBrMSGhLzRvP9rLiC8MoIu4uy9nLF5hxqMr5lZtBFl4hJD8lmD00-2_oOdMLQCqvJBFFUvX4ZtpyJHmqewI4HUv00KPaoTn7oRXhxIXfASLIPfWJszZT7C_pRc_4oNyHiAkl0mix6tOpSwUbrCQDRoT5nk1NRYA-unzxxubF1eEDSOEahBCKOTV5vWHb29YnmOmxR45mBZN6PwIj4eYrgEy85Y7hNbyLx-vHX3cPLFsivjDKYQSAG8yG9Ayn2RP6Z_gqBcPtUitv5xjnlgQ_GG1tQODVidlQjU1yHmscB3Qo33-J81-uP-mZYBbihDzYNHomBSihE2ORAfKPxpP3PRfs6dmHJGI7acyoyz8Fx8B_znXct1zCCGOrWDbxRdjPDCjriYLk2Qamul3qtAdnc2TtXGV8llVOkfPEPnyDavh0dRzjAteeI8btxEggYccmyRpmhNXD2kHu1ktIcph1AUpWmpeDY1gTDBRbIS_70EMs6CzqeiBARQ70-qWe-OmCM-M6wWz0SMCzTPTNemGhg68v1r264O-3m_lhOfh22zHQBypbhpmKm-K26nlwdvUvsxbS74siFt0dzOJ_epR9UwHZyLA2OdL9uebQNTla2UfRXKFMogtM8n3Sw=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/Fdy8ZAYYWCXDQoc80yf6Rzd9kPg7HKaOhEuJuHA1Fj1TgHWomIeNnpTtfQbWNtZmceI06tYGZ7qF2UucZ7u22MXgYNnOh546qrg5WBEPJ-XALH3qWWomeZkwD22FdgxeZPiYtPU3R0BfY7BIckRT_PCAua8qZjaDBQaW4qA1-m5OWIRlKy8iz7UVt2Ad2Z3QrNR5ZFM216luWrDd6cqzCNQ7ztSr0IZ5hdbETAaa2jSGnHS02ryNV4DF15pbL8pbNfZdceSwttYVu4z56d2nTgyAjaD2_d8iB24UeoXknGMM7nbwczfqdwFbWad2LFiWPvUvsKqMiW6JoiOxdVHyWT_N8rw_v06NnCK-FyrmlitfpGZtKx_teezZPWi1ZBLQy3grk-3DIdhYL2H586vlQGGca3jZUDIYb6uT0JHjakj3-jP593FmH8Z2H22Rso8H_EFWT1fTY1fMBJUeQvr4GspeONXXzuaH0FlxpIuppXTmyH7KKPfmbdt3w1vgajryd9juiTplHVFUmRoRs3mZ9bxLCvYCGN-grcbiGZANTfilw7AmPGqHSn9Stm9A5xSnO0ONkL4L_vVSlBl7P44Gf-cwhxntOOsnBlIsx8Iz48_bujb9wX-_SJ2x3_rD0VSGMB8LIGDWgCOy85QUF1scRn9jgcPMzJE=w1000-h1498-no',
             ],
+            description: 'Худи оверсайз "Losev"<br><br>Желтый/Розовый<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
         {
             id: '02003',
@@ -95,6 +103,7 @@ const state = {
                 'https://lh3.googleusercontent.com/yCvZEIsw8e8I0M84Dc1vQNu8KKPO3iu0g7kUI9mGt4OwR2BSIfwl5I9HbnCvCYpO7K1ZG3y3lkXJPfSMwftnMakN3NpDBNR2cM20VmomBRIboqK0lv9UU2gjehrP5To3G9onffa722QCLOkA1eBIXDpWbxIXT6HawhqLEuKFsQZ64ZZDLZe-swW0vfpT3jrStdEt3OD_0AGuI1vLuxjM88jOWkP-bvGFeKOWkpotacsp5fsazSSJvCfRB8r4mVJmmVR80o3HUT4kgp_prMvXy2hcnZWGIFtGe6jPFt89zHQDXotJemLbsJ8Q7SdbTYwJRxIFG6mLDYuiXz1rC2pU4uRm6fMR176TAOZvowUMq9N___c3bC_cGXTid_-BsTmcsPuop41TlCBPKOW1MnFH5U8wlNVgrw9kakXXcZzI6--TtFfGiHkANWHy2BNRZv0qlqsM_5mezEmdkr8j-6_nu82CvB_zQIvrrN-nWfvARcfGwDCir0NAQ-Awqfp0gsvyrULfcromw87pE0ntQl2BlIluony4oI1L5GZCViCEJgNzpAp7A1CvyK4k7m4yiCmSTH6MFxed1V87PwgEtKZo0aV-ZVDJDeV3FwupDaXliGuEcmSLDn2DlSDlfG-D3VanosN2MNMAyZJl5c0Gax5wbUhDQZIRW84=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/mzYt1E8JNqy8i1js7UuCkXbiFz52HyXznPiMQTy_7hXAVR-LDanGO43SAJVMT5Kem37Y1Hih3RrEc0Tvwkls0r5m5UAOKzcKmOuc0Ia8BzmhO_NTucxqXI7XnttrL5N70DE0Ka6ud2nUuVYiqXwNv_NeHcAwGrXuQO5iCc44cXRLL_nCECUtovamZ-HN1a7Cl0Tv0LwRYEuM-HULA5tjukaqUmyObBtP8hzzZGAaY8HAp_Pkq2gVYvQFb9-Nsa2PG0vGnpddSYyHrbVdmN5kjN6SLRYhJgRtO7yeQZ41kTvWMX31_PGKUR3CQzVHPmZ6grdmWtIa6i-qyni2OvE4v1ojQoMGHD5nHFCUkIXF-yst0xo-uZ3wKPUnVMM3uRDM96TLp3WV43TbKLBRwASmzuQ0gQI4IYTwZRaXI74aicPSGaFI3-jSoLteTIZq8NlIlTuClJLgKPJMY3Snk5LnGhU7jo7aK5qkC7AMb1sRqLDLwShVzkX1VNAoZ_FNlxgre1ZvZ3r-gJxpRlxj-hRad_BGz5-weMjMMnmcmcRV1Ok0PBWJttz0jkRSpvx0M4dEnCsQVXh_RJFPY_xt1EWWfzCGCrvI4TQJ-H73n2IdveW6S93EzDDSpHJIK6_sw6sblJWtzUfIaCHE0MWRyGADZjpWpet3hq0=w1000-h1498-no',
             ],
+            description: 'Худи оверсайз "Мопс"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
         {
             id: '03001',
@@ -106,6 +115,7 @@ const state = {
                 'https://lh3.googleusercontent.com/x-A6iMClPnx8djM-KNoaPdz92oyaWrkcNHzw4Y0Ms2zvUrBOQ2YC9K26W1vwLTJ8Esw8G-yrOZvoaEW0jUq8xD5Z3b31qhJGtiPBnFiMocu8O4R1KrzQYGEIuzs6NOfCfXgd-QoxXvnNApL6Ka6JHTBb_ennHz3lPlvLl9T8x6r13tgweD7gjFwGycaYGCD6VLApbBu2Aa7UPeLGWh2W7AzBX7yFFwv8-OBQWEobU98G-PJ_S93ZS5X5AdAAnqUpSduEXtmNX9f5Lg7NMM_83L4kB3jnLIe2fjVedLauZ8biy6I8KB9iwbUxRBfyONZ9KYMC4EXtBrvdjSyDK35coIqSWNBTyGJPwf5kzhlKIuwrGNuL5zHYKSRW5LrcImWVS5nJntfOEHjyYRCqzzrgG-Wr4I2l1iJgORzJ7Q2MBA4QKLd9S5gcpiS148nJ2V1FX_CH6YndzR6Ehkv8TJzmmKBB-ZKXIaO9aekLyXwZsge4spERxCKYoaG5WKs3gA_49hVMFIWg1bHgnQVefu9uozq6W4qesOLp9Dn6KU2NP6PHw4zEOXH7xCYopkKH4CTQuW7MgIC_ygF0fAhM8-T92zM83kaXXDinv1QD7iygBmfrW-UqE-DJzZ1FduEpwEQPMfeMSY7coJ0cdOLpQmCOe2XKH86LvYc=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/EZRMeiDMM0vYEX54BSAJCnNogEXYX4QR8PnUuirkI2VkQ4z0FR4HAq-pLln_tdZ2L84R4SHD1cyZ0kEDMSMj2gn-o-vfvzn9HxqZ8fO2KBJ8tMINtFNjusQh1wZRsYslXh01OINRtHK6ykUPfBn9djiDvpMe6e7ufF6gwBto1PlH0OmT03KVp7H0EFalnj75wLf5OeO8NqwtA4KiiXWHflC5fZlCL7LYxagkJHs6SdyAlBTR8yOPU5LCjn_MYreuXGfNr9dQQnm6V9n00flhmJGK9EwYF_ExvJRt9OTU56ki2jZLMYhxKwBRjc6SXr93vHp3vacsju1A2r5kytv639TIVS0gx4LSRxJdmivc1n1PUcOlz2u9xgD7Stut4_AiHaSvxay3TXlIAoQlyOl0_eUC1XcZA1hXwlZ1wVMBgdnfP5Jsk7FWg95HRokYGJ7f-qcLyRQm52YB3yWU7umLmXsZRdLaEhCojzvri7I3bSlUZQsbFVd1VYQDmHVYepbigikkHUQ0n0cI2_EN4eC-FHh4nSfbwnL0zuV1a0VwPgmsqpSqctxGFRWTL469c9RuU2uF5NIiKnLag5X6hZRbgjEfM2dgz_zTV7LdKJOSlsjeaWSh44zSGMcpXtA400aNjCauWMPxcm3sAm4WfHyc8SGHoUA3_O8=w1000-h1498-no',
             ],
+            description: 'Свитшот оверсайз "Мопс"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
         {
             id: '03002',
@@ -117,6 +127,7 @@ const state = {
                 'https://lh3.googleusercontent.com/3i8pGC8dyFxDS85XROhALLbJGQrRlrNpeGPHMq3B3oozx8jyCLo5TVGbBoiwJy6QF9BJPPxd4iNhvo1L_vxwOMZCWgkhnGWhPCv7Jk7ca3-U_yiUv5rk2uKvCTxmQORTvhpXDgeRoaV2KcSMHn2hadxymCUCrdwa4Grz7XvwLarV368SM0k7NGKS8mO8DMH6ugLSWAL10mTYfKKl53xP8cPXWTrZYianOBOZt-TsXB7sIk6YEM3zuxiICIlvetRctxoxW2JiBGPd1A_6V9OIgYDukMi6C8iXFEHJp_Z_oS1mkvjic6C816vjCc7mCvrlF925VGLYXscmo31UUQ6k5r5DZOisbvMq0UWgAqWhfWpajLNeuMu-gYYFXvjKFY8smCf1pDqTrigkuMNflGhWlB3x3jwMBpQdnzE8jzvlB_3hEK120U4DP_-U3JC2hedysnOArf5qNuaSL6LoGXXPrdnhyFhamUDpj3RNJJyklA-jfyQZx75uyqUbBJ-AySGi-jWJILbJRMrLAUCub-J1_frp_xuXwCPgc-ZTLsBNIGckT9GT9PfNxNOxVyxM6fJebhohJSvn5DU4SUiKRjMTXYsTYrBpCJEFcOD8YsIdfyH3cjxgmZOzfjPXTUnAkOa9X8HVppjUMYzHMQx1w0yCqvlSqgmVe14=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/JSqIPYC5Svlr3GlAo-9uYsmPfkqz3qK8ritqWnapFGChdAQk7i1iFkIeyOrc5TdJ6IPMr4npQrjqpqoi7pEm-xaUKjhHVCON1D7-crnvQq6lC9Bo0mvMSy795d8Is-13nS_4ZAcJ74Q49l_g9OPTk1-5Y_E5K3ZB3XdzaCGnYUel9Z7rCpcInFwLOX6cjmoucrf9KvlMB47fvKabYmsjjx0dsDXN7wR0LTm3LnWE4RWfA17J7oYsR_izhX_LIfANdwtuFSwb7yRahpm-OYqGV6mwMD9J3EX6_TDbRFfT3DVmg37e6oZ6uRkBRCt-zIp_F992FadDY20OfNKGaflh-C-QkePjb-XdrExp8nj5VMHK9BJcf2a-fPioEUFSI8oMJnh7u-5k4nqkTjz6vGGOPQlMWMG9PSmgktD5q-i2NIBeVLGkRDQaRtBALYULVmtpkg_x4EppSQxDSjALxWKjO643zdsuggg5E1Z27r-S-0eu7-XF0A7cSHpHHiFIj27eepfHCnWFJQ-fR1NOHKYMLPi-LMPX88SKjT4pq13v6ete23jLn_MAXOqvTsY7RPXy8cgUxtcRFGWE69Np-hcIiYqgno3lwv36ft_zwUPDhnOaWQ8r30lwzaYh_aLncvwIIpgdWAtVOSilO6TG3xwnwjQD_wx1nhk=w1000-h1498-no',
             ],
+            description: 'Свитшот оверсайз "Losev"<br><br>Розовый/Желтый<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
         {
             id: '03003',
@@ -128,6 +139,7 @@ const state = {
                 'https://lh3.googleusercontent.com/kfkZJoISDLrakayYIodfTJ5jBeTI5qmL7W45O5anHCJ3_QdW6ILArpyIKtTnCXQVb8goX6EUh1-jmhRCUL2wNGr-img65Hp4pHoH4kXRncc8MM5Oj8tHbz3ARkTe1Qqaz97aMeW4vv7ShQdkP--x6WxapBBvASly0dQnZ_MdadOky-PS-6xxw2DTf1knvFPSdIvMtTfGFbEu0G6My01OpQ1c_2pkZEQ145YxgKSfa-Qg8V3tJ5XkGREJRajDViywE9UyFuTUqrMKYraHCjo7Hmz4ww6Hm_zJ5ZzgSDpEAc87xTS6TVX0seg-WwMwhM62SxmFHgNP3-fDWypekdHpIZRS6-hGm0x0EshCnX4BRpP8dpWSYXrzdJ5trQQPgltHh52plpoBYNS5cMsqIVjqAYd8BFTOj-2qXBeCn4KFsLiN0yYgXOxpx2175Xo8A_j1nk08BksbfcFREHQxgsPKtkmiQwONEqWFLVUF-8bKYhLKnwh8-FbndSxkYmRyFZdMNMXvnGGJY7tc6KDiclEbByflIw6b6tUfLbqzlwDS6KC66HRBh793KCrUXQBVSaxRt2IaNg9XsTAIqdONUkIr0j2tAXcqWRY6fsGOwH8Aq4Zk2zbP_OvlCVHdaN2b2nDF-hF1UpeQidTzeIle4lXSorBSOrL_Omk=w1000-h1498-no',
                 'https://lh3.googleusercontent.com/fNMFx1E-57b-DS3d6Wn4Vn7FBZRONgNLaRkijbQ3FMJuIIo4JVaKwstBKvMEGXoPhXpX5zBoN2k-8rw9hKNUhl-yx902NNyV4Via7xI7sCvpC_DKIbCq80lRDSVzA9QVUXx92c5YVV9QbZAUV1JPFaC4McGTyLla-vs93_GC8UZ7wvU4YctKz5N2ezgmQJyjnxekYNvfjZ6FGntHVHY5v_oQaqKo12tma-vwBtvMwkN_0HIjn2JZtNR_ygfyuuaTPSo-iyqJWdzyNUrBJqAk7iOJdx_epvVVi5eMb_P7REJB4zfm35fAtagEikKkYB4P4W80v_XtdnjtV9LMrZRD_SoSvpcboJT7wOzd4xc2Dy1zdan9crWIt0e7MhfJQ3p6ALSRo9yVKSvxbgU6X94dE0zIDkl4A6Mfau7xYN8iWVhcc9qGFfK-5wBLv5Ys4kqKP64Yd7kOXiDZmsyq7TvLYPQHsNcm7A3ZZ5C3Zi2X65Iv0JweLnYJHihsk2cpDqYgHT80GWkuJLsW6WW8bIqIxEYwPKIHR6lKz0osE7yukjZjEHIxjK79WiHrzYQELPcyK3mf0600LAPR_QNp_f-HoLdCm19_wVEOk9fokOcbqlVqor4m8LkiS3l4RPWkX9RSOwDnu0MquGgvor6-9YDM31m-xYiH648=w1000-h1498-no',
             ],
+            description: 'Свитшот оверсайз "Корги"<br><br>Наша новая коллекция посвящена счастью - простым, но вдохновляющим мелочам, улыбкам и свету, который есть в каждом из нас.<br><br>Состав: Хлопок 80%, Полиэстер 20%',
         },
     ],
     params: {},
@@ -243,6 +255,7 @@ arrangeItems = () => {
 
     $(".description").find(".name").text(item.name);
     $(".description").find(".price").text(item.price + " руб");
+    $(".description").find(".long-description").html(item.description);
 
     // const item = state.items.find(item => item.id === state.params.id);
     // item.src.map((src, index) => {
