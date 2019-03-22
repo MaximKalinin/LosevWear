@@ -17,4 +17,23 @@
 #lightgallery .image img {
   width: 100%;
 }
+
+@media (max-width: 800px) {
+  #lightgallery .image {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  #lightgallery {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #lightgallery .image {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+  }
+}
 /*# sourceMappingURL=lookbook.css.map */
