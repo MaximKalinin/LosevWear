@@ -77,4 +77,17 @@ a:hover {
   display: block;
   margin-bottom: 30px;
 }
+
+.footer .link {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: border-bottom 1s;
+  transition: border-bottom 1s;
+  border-bottom: 2px solid transparent;
+  color: #0053ad;
+}
+
+.footer .link:hover {
+  border-bottom: 2px solid #0053ad;
+}
 /*# sourceMappingURL=index.css.map */
