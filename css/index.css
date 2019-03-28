@@ -84,10 +84,9 @@ a:hover {
   -webkit-transition: border-bottom 1s;
   transition: border-bottom 1s;
   border-bottom: 2px solid transparent;
-  color: #0053ad;
 }
 
 .footer .link:hover {
-  border-bottom: 2px solid #0053ad;
+  border-bottom: 2px solid black;
 }
 /*# sourceMappingURL=index.css.map */

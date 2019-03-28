@@ -127,8 +127,30 @@
   color: white;
 }
 
+.description .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .description .info a {
   text-align: center;
   color: #a1a1a1;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: border-bottom 1s;
+  transition: border-bottom 1s;
+  border-bottom: 2px solid transparent;
+}
+
+.description .info a:hover {
+  border-bottom: 2px solid #a1a1a1;
 }
 /*# sourceMappingURL=item.css.map */

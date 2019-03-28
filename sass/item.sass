@@ -74,6 +74,15 @@
                 background-color: black
                 color: white
     .info
+        display: flex
+        flex-flow: column
+        align-items: center
         a
             text-align: center
             color: #a1a1a1
+            display: inline-block
+            cursor: pointer
+            transition: border-bottom 1s
+            border-bottom: 2px solid transparent
+        a:hover
+            border-bottom: 2px solid #a1a1a1
